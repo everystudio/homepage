@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS */
+
+/* margin padding　2 上下 左右　3 上 左右 下　4 上 右 下 左 */
+/* 複数の箇所で定義されている場合は、idは不可のため、classを使用 */
+
+/*------------------------------------------------------
+リセット
+------------------------------------------------------*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0;padding:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; }
+
+img,abbr,acronym,fieldset { border: 0px; margin: 0px; padding: 0px; }
+
+
+/*--------------------------------------------------------------------
+基本
+--------------------------------------------------------------------*/
+
+/* コンテンツ全体 */
+body { background-color: #000; font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Meiryo', 'メイリオ', 'sans-serif'; margin: 0px; }
+
+/* 基本フォント */
+font { font-size: 12pt; font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Meiryo', 'メイリオ', 'sans-serif'; font-weight: normal; color: #000; line-height: 15pt; }
+
+/* リンク */
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { }
+
+/* コンテンツ */
+#contents { width: 100%; background-color: #fff; margin: auto; }
+
+#main_contents { width: 100%; margin:auto; }
+
+.contents_area { width: 100%; margin: auto auto 0px auto; }
+
+.column_1 { width: 100%; margin: auto; clear:left; }
+
+.header { background-color: gray; text-align: center; vertical-align: middle; }
+.header_font { font-size: 13pt; font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Meiryo', 'メイリオ', 'sans-serif'; font-weight: normal; color: #fff; line-height: 16pt; padding: 16px 0px; }
+
+.footer { background-color: gray; text-align: center; vertical-align: middle; }
+.footer_font { font-size: 13pt; font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Meiryo', 'メイリオ', 'sans-serif'; font-weight: normal; color: #fff; line-height: 16pt; padding: 16px 0px; }
+
+.contents_text_area { width: 100%; background-color: #fff; margin: 0px auto; padding: 0px; }
+.contents_text { width: 90%; margin: 15px auto 0px auto; padding: 0px; }
+
+/* タブレットPC（iPad 横 w1024px）用 */
+@media screen and (max-width: 1024px) {
+
+/* 基本フォント */
+font { font-size: 15pt; font-weight: normal; color: #000; line-height: 19pt; }
+
+.header_font { font-size: 20pt; font-weight: normal; color: #fff; line-height: 20pt; padding: 16px 0px; }
+.footer_font { font-size: 18pt; font-weight: normal; color: #fff; line-height: 18pt; padding: 16px 0px; }
+
+}
+
+/* 社長のスマートフォンで検証 */
+@media screen and (max-width: 980px) {
+
+/* 基本フォント */
+font { font-size: 24pt; font-weight: normal; color: #000; line-height: 30pt; }
+
+}
+
+/* タブレットPC（iPad 縦 w768px）用 */
+@media screen and (max-width: 768px) {
+
+/* 基本フォント */
+font { font-size: 15pt; font-weight: normal; color: #000; line-height: 19pt; }
+
+}
+
+/* スマートフォン（iPod Touch iPhone 5s 横 w568px（実際の解像度は2倍の w1136px））用 */
+@media screen and (max-width: 568px) {
+
+/* 基本フォント */
+font { font-size: 18pt; font-weight: normal; color: #000; line-height: 23pt; }
+
+.header_font { font-size: 20pt; font-weight: normal; color: #fff; line-height: 20pt; padding: 16px 0px; }
+.footer_font { font-size: 18pt; font-weight: normal; color: #fff; line-height: 18pt; padding: 16px 0px; }
+
+}
+
+/* スマートフォン（iPod Touch iPhone 5s 縦 w320px（実際の解像度は2倍の w640px））用 */
+@media screen and (max-width: 320px) {
+
+/* 基本フォント */
+font { font-size: 15pt; font-weight: normal; color: #000; line-height: 19pt; }
+
+
+/*--------------------------------------------------------------------
+テンプレート
+--------------------------------------------------------------------*/
+
+/* コンテンツ */
+#contents { width: 320px; background-color: #fff; margin: auto; }
+
+#main_contents { width: 320px; margin:auto; }
+
+.contents_area { width: 320px; margin: auto auto 0px auto; }
+
+.column_1 { width: 320px; margin: auto; clear:left; }
+
+
+/*--------------------------------------------------------------------
+コンテンツ
+--------------------------------------------------------------------*/
+
+.header_font { font-size: 17pt; font-weight: normal; color: #fff; line-height: 17pt; padding: 16px 0px; }
+
+.footer_font { font-size: 13pt; font-weight: normal; color: #fff; line-height: 13pt; padding: 16px 0px; }
+
+.contents_text_area { width: 320px; background-color: #fff; margin: 0px auto; padding: 0px; }
+.contents_text { width: 300px; margin: 15px auto 0px auto; padding: 0px; }
+
+}
+
+/* ------------------------------------------------------------------------------------------------ */

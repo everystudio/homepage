@@ -1,0 +1,130 @@
+<html>
+
+{include file="./templates/header.tpl" title=`$title` 
+	keyword="アプリ開発,Unity,AWS,アプリ攻略,ゲーム開発" 
+	desciption="インディーズゲーム開発サークル「毎日工房」の公式サイトです。主にUnityを使ったアプリの開発に関する特集をお伝えします。また、ただアプリ開発の記事を載せるだけでなく、それに付随する通信処理の実装実装方法とその確認や、サーバーが動くインフラの設定までフォローアップします。一人で開発から運営まで行いたいかたはぜひチェックしてください！さらに他のアプリの攻略に関する特集も行っております。ご利用のアプリがある場合は是非情報を収集し、アプリ攻略位にお役立てください" 
+	no_script = "【注意！！】このページでは、JavaScriptを使用していますので、JavaScriptを無効にしている場合、サイトが正常に機能しない可能性があります。<br />ブラウザの設定でJavaScriptを有効にしてください。<br />※設定方法につきましては、各ブラウザで異なるため、お手数ですが個別にご対応ください。" 
+	header_id = 0 
+	contents_title = "トップページ" }
+
+<link rel="stylesheet" href="{$css}/style_01.css?ver={$timeserial}" type="text/css" />
+
+<body>
+
+{include file="./templates/body_top.tpl" }
+
+<!-- コンテンツ開始 -->
+<div id="content">
+
+<div class="container">
+
+<div class="section emphasis">
+
+<h2>素材からの逆引き</h2>
+<p>
+	素材から錬金できるもの一覧などを調べることができます。<br />
+	私が確認できたものや、どこかに載ってるのを鵜呑みにして載せている場合がありますので、錬金の際はもろもろご確認をお願いします
+</p>
+
+<p><a href="{$link.top}">トップページに戻る</a></p>
+
+</div>
+
+<!-- メインカラム開始 -->
+<div >
+<h2>{$element.name}</h2>
+<center>
+</center>
+
+<div class="section emphasis">
+
+<table border=1>
+
+	<tr>
+		<td width=10></td>
+		<td>名前</td>
+		<td>メモ</td>
+		<td>カテゴリー</td>
+	</tr>
+
+	<tr>
+		<td></td>
+		<td>{$element.name}</td>
+		<td>{$element.comment}</td>
+		<td>
+			{$element.cate1}
+			{if $element.cate2 != "なし"}, {$element.cate2}{/if}
+			{if $element.cate3 != "なし"}, {$element.cate3}{/if}
+			{if $element.cate4 != "なし"}, {$element.cate4}{/if}
+		</td>
+	</tr>
+
+</table>
+</div>
+
+<hr>
+
+<h2>{$element_name}で錬金できるもの</h2>
+<center>
+</center>
+<div class="section emphasis">
+
+
+<h3>アイテム系</h3>
+{if 0 < $item_num}
+<table border=1>
+
+	{include file="./templates/recipe_item.tpl" tpl_head=1}
+	{foreach from=$item_list|smarty:nodefaults item=data}
+		{include file="./templates/recipe_item.tpl" tpl_recipe=$data}
+	{/foreach}
+</table>
+<br />　
+{else}
+見つけられませんでした<br />　
+{/if}
+</div>
+
+<div class="section emphasis">
+
+
+<h3>装備系</h3>
+{if 0 < $equip_num}
+<table border=1>
+
+	{include file="./templates/recipe_equip.tpl" tpl_head=1}
+	{foreach from=$equip_list|smarty:nodefaults item=data}
+		{include file="./templates/recipe_equip.tpl" tpl_recipe=$data}
+	{/foreach}
+</table>
+<br />　
+{else}
+見つけられませんでした<br />　
+{/if}
+</div>
+
+<center>
+	<font color=black>
+	<a href="{$link.aqb_element}">素材一覧</a>・<a href="{$link.aqb_recipe}">レシピ一覧</a>
+	</font>
+
+</center>
+
+</div>
+<!-- メインカラム終了 -->
+
+
+
+
+<hr class="clear">
+
+</div>
+
+</div>
+<!-- コンテンツ終了 -->
+
+{include file="./templates/footer.tpl" }
+
+
+</body>
+</html>

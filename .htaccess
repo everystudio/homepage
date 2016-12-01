@@ -1,0 +1,45 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ ./index.php [QSA,L]
+</IfModule>
+
+<Files ~ "^\.ht">
+deny from all
+</Files>
+
+# Redirect
+Redirect permanent http://every-studio.com/ http://every-studio.com/wordpress/top/
+
+# ディレクトリを表示させない
+Options -Indexes
+
+# エラー出力の設定 開発中はOn/リリース後はOff
+php_value error_reporting 2047
+php_flag display_errors On
+
+# セッション関連の設定 ---------------------------------
+# SESSIONにcookieを使用するための設定( On, Off )
+php_flag session.use_cookies On
+
+# HTMLのFORMに自動的にhiddenを追加する設定( On, Off )
+php_flag session.use_trans_sid Off
+
+# セッション情報の存続期間を設定
+php_value session.gc_maxlifetime 3600
+
+# セッションデータの保存場所
+# php_value session.save_path '(保存先の絶対パス)'
+# ---------------------------------------------------
+
+# wordpress ---------------------------------------
+#<IfModule mod_rewrite.c>
+#RewriteEngine On
+#RewriteBase /wordpress/
+#RewriteRule ^index\.php$ - [L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /wordpress/index.php [L]
+#</IfModule>

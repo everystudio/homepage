@@ -1,0 +1,230 @@
+
+ロロナ攻略メモ
+
+//----------------------------------------------------------
+コール稼ぎ
+前スレで見たけどベリーパイのコール稼ぎがわりといいね 
+
+高級品つけたプレーンパイを一気に作る 
+↓ 
+適当な特性つけたプレーンパイもたくさん作る 
+↓ 
+高級品つけたプレーンパイひとつと、適当な特性のプレーンパイ全部を使ってベリーパイをいっぺんに作る 
+↓ 
+品質100で1つ6000コール強で売却 
+
+LP使うけど楽でいい 
+// ---------------------------------------------------------
+
+
+<<<<<<< HEAD
+ルートユーザーの設定
+mysqladmin -u root password root
+
+アプリがアクセスするユーザーを作成
+CREATE USER app_user IDENTIFIED BY 'app_user';
+
+GRANT ALL PRIVILEGES ON user.* TO app_user@localhost IDENTIFIED BY 'app_user';
+
+/*コマンド*/
+GRANT ＜操作名＞ ON ＜データベース名＞.＜テーブル名＞
+TO ＜ユーザ名＞@＜ホスト名＞ IDENTIFIED BY '＜パスワード＞';
+
+
+こんな感じ？
+ユーザー名（app_user）がデータベース(user,website,test_app)にどっからでもアクセスできるようになる
+mysql> create database user;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> create database website;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> create database test_app;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> GRANT ALL PRIVILEGES ON website.* TO app_user@'%' IDENTIFIED BY 'app_user';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> GRANT ALL PRIVILEGES ON test_app.* TO app_user@'%' IDENTIFIED BY 'app_user';
+Query OK, 0 rows affected (0.01 sec)
+
+
+gitで環境を作る
+git remote add origin /var/opt/repos/every-studio/
+
+
+//=================================================================
+//-----vagrantからメールを送ったりする確認
+
+Vagrantファイルの方の変更
+
+#   config.vm.network :public_network
+
+		↓
+
+    config.vm.network :public_network
+
+vagrant upすると
+
+[default] Available bridged network interfaces:
+1) en1: Wi-Fi (AirPort)
+2) en0: Ethernet
+3) en4: Thunderbolt 1
+4) en3: Thunderbolt 2
+5) bridge0
+6) p2p0
+
+こんなの聞かれるんで、使ってる環境の番号とかを指定する。
+我が家はwifiでやってるので１で！環境によって違うかもしれないのでご注意
+
+What interface should the network bridge to? 1[Enter]
+
+ip-addressを確認する
+$ ifconfig (表示は簡略化してます)
+eth0      Link encap:Ethernet  HWaddr 08:00:27:07:9E:3D  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+
+eth1      Link encap:Ethernet  HWaddr 08:00:27:1B:D4:2E  
+          inet addr:192.168.33.30  Bcast:192.168.33.255  Mask:255.255.255.0
+
+eth2      Link encap:Ethernet  HWaddr 08:00:27:BE:7E:23  
+          inet addr:192.168.1.24  Bcast:192.168.1.255  Mask:255.255.255.0
+
+eth1のinet addr:192.168.33.30はローカルネットワークでアサインされているipアドレス
+eth2のinet addr:192.168.1.24が今回通ったipアドレス。こっちだとローカルネットワーク内なら誰でもアクセスできるようになります
+閉じた環境での何かするって場合はいいかもしれないですね
+
+vagrant ssh で中に入る
+sudo -uとかでスーパーユーザーになっておくといいかも
+
+※確認な意味で ping yahoo.co.jp で外まで通信が届くの確認とかしてみてください
+
+// postfixのインストール
+yum install postfix
+
+// とりあえずpostfixをインストールした中に入る
+cd /etc/postfix/
+
+// main.cfの編集
+// relayhost の設定してあるあたりで以下を追加
+// ホスト名は適当になってます(test-inc.com)
+
+relayhost = [mail.test-inc.com]:587
+smtp_sasl_auth_enable = yes
+smtp_sasl_password_maps = hash:/etc/postfix/relay_password
+smtp_sasl_security_options = noanonymous
+
+// パスワード設定用のとかをする
+// 一時保存用のファイルを作成
+vi relay_password
+
+// relay_passwordの中身
+// 設定してあるメールサーバーのメールアドレスと対になるパスワードを設定。587はポート番号だったかな
+[mail.test-inc.com]:587 mail@test-inc.com:password
+
+// relay_passwordファイルから暗号化したパスワードに変更する.dbファイルを作成
+postmap hash:/etc/postfix/relay_password
+
+// 通信のなんかとどーこーする
+yum install postfix cyrus-sasl cyrus-sasl-plain cyrus-sasl-md5
+
+
+// host名を変更する
+hostname test-inc.com
+
+// host名を確認する
+hostname
+
+// 永続的にホスト名を変えるには設定ファイルを書き換えれば大丈夫！
+vi /etc/sysconfig/network
+HOSTNAME=test-inc.com
+
+
+
+//postfixの再起動
+/etc/init.d/postfix restart
+
+// postfixに自動起動させる
+chkconfig --add postfix
+
+// postfixの起動オプションとかの確認(３が自動起動)
+chkconfig --list postfix
+postfix        	0:off	1:off	2:on	3:on	4:on	5:on	6:off
+
+
+// ログを流しっぱにしてみる
+tail -f /var/log/maillog
+
+以上でメールを送る処理を踏むと、送ることができるようになります。
+relay_passwordファイルは.dbファイルで来た後は不要なので、必要に応じて消してあげてください
+
+
+
+//
+// =================================================================
+
+
+
+
+apacheで.htaccessが有効になるように設定する
+
+/etc/httpd/conf/httpd.conf の300行目付近にあります。
+
+--- 前 -------------------------------------------------------------
+# AllowOverride controls what directives may be placed in .htaccess files.
+# It can be “All”, “None”, or any combination of the keywords:
+# Options FileInfo AuthConfig Limit
+#
+	AllowOverride None
+
+--- 後 -------------------------------------------------------------
+# AllowOverride controls what directives may be placed in .htaccess files.
+# It can be “All”, “None”, or any combination of the keywords:
+# Options FileInfo AuthConfig Limit
+#
+	AllowOverride All
+
+
+phpでPDOを使う場合はこのインストールがないとだめ
+sudo yum install php-mysql
+
+
+=======
+>>>>>>> 2ebf3fa5de1af250e5d0864e2742ab7a2f7d0b5e
+// vagrant内に入る
+vagrant ssh
+
+// mysqlを使えるようにする(データベースサーバーにアクセス（という感じ）)
+mysql -u root -h localhost -t -ppoi123
+
+// データベース名を確認する（慣れた場合は不要）
+show databases;
+
+// id,uid を調べる
+use user;
+select id,uid from userParam limit 10;
+
+　※limit 10 の 10は検索する件数を変更することができます。
+
+csv/questionCode/0001.csv
+id,secret_codeの順番でデータが入っているので
+利用するidに対応するsecret_codeを見つける
+
+
+// user_officialというデータベースにアクセス・こっちがマイページ用のデータベース
+use user_official;
+
+select * from personalInfo;
+select id,uid,family_name,mail_address,secret_question,secret_answer from personalInfo;
+
+// 別件
+mysql -u root -ppoi123 < dump.sql
+
+
+// 簡単ログインユーザーを作る
+// 入るだけで削除するテスト用なんかのユーザー。ユーザー番号とかは持ってません
+use user_official;
+insert into personalInfo (mail_address,family_name,family_name_furi,secret_question,secret_answer,password_salt) values ('delete@test' , 'name_disp' , 'name_furi' , 1 , 'test' , '$1$HCgIfM76$Le65fUyFWmEyNjp/tyiBf0');
+
+
+

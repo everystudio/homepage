@@ -1,0 +1,578 @@
+{include file="./templates/header.tpl" title="パズルキングダム 公式サイト｜マイページ/新規会員登録" keyword="パズルキングダム,パズル,アプリ,ゲーム,モンスター" desciption="爽快パズルで白熱バトル!! パズルキングダム」は自由にドロップを動かして遊ぶ爽快3マッチパズルゲームです。コンボを決めて敵に大ダメージを与えよう!! キミだけのチームを作ろう!!登場キャラクターは総勢200体!!ダンジョンやガチャで新たなキャラをゲットしよう!!進化や合成を駆使してキミだけの最強チームを作ろう!! １分で遊べるミニゲームを実装!!短時間で遊べるミニゲームを楽しもう!!ミニゲーム第一弾は《爽快シューティング》パズルの後はシューティングで気分爽快!!" no_script = "【注意！！】このページでは、JavaScriptを使用していますので、JavaScriptを無効にしている場合、サイトが正常に機能しない可能性があります。<br />ブラウザの設定でJavaScriptを有効にしてください。<br />※設定方法につきましては、各ブラウザで異なるため、お手数ですが個別にご対応ください。" header_id = 0 contents_title = "マイページ" }
+
+<!-- タイトル ここから //-->
+								<img src = "{$img}/mypage/title_05.jpg" width = "100%" title = "プロフィール変更" alt = "プロフィール変更" />
+<!-- タイトル ここまで //-->
+
+<!-- パンくずリスト ここから //-->
+								<div align = "left" class = "margin_02 float_left"><font class = "font_12"><a href="{$link.mypage}" class = "link_04">マイページTOP</a> ＞ プロフィール変更</font></div><div align = "left" class = "margin_17 float_right"><a href = "/mypage/logout/exec
+"><img src = "{$img}/mypage/button_logout.jpg" name="logout_button" id="logout_button" onmouseover="MM_swapImage('logout_button','','{$img}/mypage/button_logout_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "logout_button" ></a></div>
+<!-- パンくずリスト ここまで //-->
+
+									<div align = "left" class = "margin_05 float_01"><font class = "font_07"><br />以下の情報でプロフィール変更を行いますが、よろしいですか？</font></div>
+
+										<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_02">
+											<tr>
+												<td class = "table_02_td">
+													<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■名前（姓）<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td class = "confirm_contents_w">
+																<div class = "margin_03"><font class = "font_06">{$family_name}</font></div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■名前（名）<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td class = "confirm_contents_w">
+																<div class = "margin_03"><font class = "font_06">{$name}</font></div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■ふりがな（姓）<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03"><font class = "font_06">{$family_name_kana}</font></div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■ふりがな（名）<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03"><font class = "font_06">{$kana}</font></div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■性別<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03"><font class = "font_06">
+																{if $sex==1}男{elseif $sex==2}女{else}未入力{/if}
+																</font></div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■生年月日<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03"><font class = "font_06">{$birth_year}年{$birth_month}月{$birth_day}日</font></div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■メールアドレス<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03"><font class = "font_06">{$mail_address}</font></div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■郵便番号<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03"><font class = "font_06">{$postalnumber_head}-{$postalnumber_tail}</font></div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■都道府県<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03"><font class = "font_06">
+																{foreach from=$prefecture_list item=prefecture_name name=loop }
+																{if $smarty.foreach.loop.iteration == $prefecture}
+																{$prefecture_name}
+																{/if}
+																{/foreach}
+																</font></div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■市区町村<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03"><font class = "font_06">
+																{$municipality}</font>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■町域<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03"><font class = "font_06">
+																	{$address01}</font>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■番地<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03"><font class = "font_06">
+																	{$address02}</font>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■建物名：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03"><font class = "font_06">
+																	{$address03}</font>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■自動車免許<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03"><font class = "font_06">
+																{if $driver_license==1}有
+																{elseif $driver_license==2}無
+																{else}回答なし
+																{/if}
+																</font></div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "3">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+
+<!-- この内容で会員登録する ボタン ここから //-->
+<form name="test_input" action="{$link.ok}" method="post">
+	<input type = "hidden" name = "family_name" value = "{$family_name}">
+	<input type = "hidden" name = "form_2" value = "{$name}">
+	<input type = "hidden" name = "family_name_kana" value = "{$family_name_kana}">
+	<input type = "hidden" name = "form_3" value = "{$kana}">
+	<input type = "hidden" name = "sex" value = "{$sex}">
+	<input type = "hidden" name = "birth_year" value="{$birth_year}">
+	<input type = "hidden" name = "birth_month" value="{$birth_month}">
+	<input type = "hidden" name = "birth_day" value="{$birth_day}">
+	<input type = "hidden" name = "form_password" value="{$password}">
+	<input type = "hidden" name = "form_password_confirm" value="{$password_confirm}">
+	<input type = "hidden" name = "form_mail_address" value="{$mail_address}">
+	<input type = "hidden" name = "form_mail_address_confirm" value="{$mail_address_confirm}">
+	<input type = "hidden" name = "form_4" value="{$postalnumber}">
+	<input type = "hidden" name = "prefecture" value="{$prefecture}">
+	<input type = "hidden" name = "form_5" value="{$municipality}">
+	<input type = "hidden" name = "form_6" value="{$address01}">
+	<input type = "hidden" name = "form_7" value="{$address02}">
+	<input type = "hidden" name = "form_8" value="{$address03}">
+	<input type = "hidden" name = "licence_01" value="{$driver_license}">
+
+<!-- この内容で会員登録する ボタン ここから //-->
+	<input type = "image" src = "{$img}/mypage/button_edit_finish.jpg" title = "この内容で情報を変更する" alt = "この内容で情報を変更する" name="button_edit_finish" id="button_edit_finish" onClick = "this.form.submit()"; onmouseover="MM_swapImage('button_edit_finish','','{$img}/mypage/button_edit_finish_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_02" />
+<!-- この内容で会員登録する ボタン ここまで //-->
+</form>
+<!-- ここに隙間が必要？調整お願いします：watan -->
+<form name="test_input" action="{$link.cancel}" method="post">
+	<input type = "hidden" name = "family_name" value = "{$family_name}">
+	<input type = "hidden" name = "form_2" value = "{$name}">
+	<input type = "hidden" name = "family_name_kana" value = "{$family_name_kana}">
+	<input type = "hidden" name = "form_3" value = "{$kana}">
+	<input type = "hidden" name = "sex" value = "{$sex}">
+	<input type = "hidden" name = "birth_year" value="{$birth_year}">
+	<input type = "hidden" name = "birth_month" value="{$birth_month}">
+	<input type = "hidden" name = "birth_day" value="{$birth_day}">
+	<input type = "hidden" name = "forom_password" value="{$password}">
+	<input type = "hidden" name = "form_password_confirm" value="{$password_confirm}">
+	<input type = "hidden" name = "form_mail_address" value="{$mail_address}">
+	<input type = "hidden" name = "form_mail_address_confirm" value="{$mail_address_confirm}">
+	<input type = "hidden" name = "form_4" value="{$postalnumber}">
+	<input type = "hidden" name = "prefecture" value="{$prefecture}">
+	<input type = "hidden" name = "form_5" value="{$municipality}">
+	<input type = "hidden" name = "form_6" value="{$address01}">
+	<input type = "hidden" name = "form_7" value="{$address02}">
+	<input type = "hidden" name = "form_8" value="{$address03}">
+	<input type = "hidden" name = "licence_01" value="{$driver_license}">
+<!-- 入力画面に戻る ボタン ここから //-->
+	<input type = "image" src = "{$img}/mypage/button_back.jpg" title = "入力画面に戻る" alt = "入力画面に戻る" name="button_back" id="button_back" onClick = "this.form.submit()"; onmouseover="MM_swapImage('button_back','','{$img}/mypage/button_back_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_02" />
+<!-- 入力画面に戻る ボタン ここまで //-->
+</form>
+
+<!-- マイページTOP ボタン ここから //-->
+								<a href="{$link.mypage}"><img src = "{$img}/mypage/button_mypage_top.jpg" title = "マイページTOP" alt = "マイページTOP" name="button_mypage_top" id="button_mypage_top" onmouseover="MM_swapImage('button_mypage_top','','{$img}/mypage/button_mypage_top_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_02" /></a>
+<!-- マイページTOP ボタン ここまで //-->
+
+								</div>
+
+							</div></div>
+
+<!-- 罫線 ここから //-->
+							<div class = "contents_area_border_01_b visible-lg visible-md visible-sm"><div class = "float_left"><img src = "{$img}/frame_b_l.gif" title = "frame_b_l" alt = "frame_b_l" /></div>&nbsp;<div class = "float_right"><img src = "{$img}/frame_b_r.gif" title = "frame_b_r" alt = "frame_b_r" /></div></div>
+<!-- 罫線 ここまで //-->
+
+<!-- 公式サイトTOP ここから //-->
+						<script type = "text/javascript">official_top();</script>
+<!-- 公式サイトTOP ここまで //-->
+
+<!-- PC ここまで //-->
+
+<!-- スマートフォン ここから //-->
+						<div class = "contents_area_border visible-xs">
+
+<!-- タイトル ここから //-->
+							<img src = "{$img}/sp/mypage/title_05.jpg" width = "100%" title = "プロフィール変更" alt = "プロフィール変更" />
+<!-- タイトル ここまで //-->
+
+<!-- パンくずリスト ここから //-->
+							<div align = "left" class = "margin_07"><div class = "float_left"><font class = "font_08"><a href = "{$link.mypage}" class = "link_02">マイページTOP</a> > プロフィール変更</font></div></div>
+<!-- パンくずリスト ここまで //-->
+
+<!-- ログイン フォーム ここから //-->
+								<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■名前（姓）<font class = "font_10">（必須）</font>：</font><font class = "font_06">{$family_name}</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■名前（名）<font class = "font_10">（必須）</font>：</font><font class = "font_06">{$name}</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■ふりがな（姓）<font class = "font_10">（必須）</font>：</font><font class = "font_06">{$family_name_kana}</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■ふりがな（名）<font class = "font_10">（必須）</font>：</font><font class = "font_06">{$kana}</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■性別<font class = "font_10">（必須）</font>：</font><font class = "font_06">{if $sex==1}男{elseif $sex==2}女{else}未入力{/if}</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■生年月日<font class = "font_10">（必須）</font>：</font><font class = "font_06">{$birth_year}年{$birth_month}月{$birth_day}日</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■メールアドレス<font class = "font_10">（必須）</font>：</font><font class = "font_06">{$mail_address}</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■郵便番号<font class = "font_10">（必須）</font>：</font><font class = "font_06">{$postalnumber_head}-{$postalnumber_tail}</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■都道府県<font class = "font_10">（必須）</font>：</font><font class = "font_06">
+											{foreach from=$prefecture_list item=prefecture_name name=loop }
+											{if $smarty.foreach.loop.iteration == $prefecture}
+											{$prefecture_name}
+											{/if}
+											{/foreach}
+											</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■市区町村<font class = "font_10">（必須）</font>：</font><font class = "font_06">
+												{$municipality}</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■町域<font class = "font_10">（必須）</font>：</font><font class = "font_06">
+												{$address01}</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■番地<font class = "font_10">（必須）</font>：</font><font class = "font_06">
+											 {$address02}</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■建物名：</font><font class = "font_06">
+											 {$address03}</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div align = "left" class = "margin_03"><font class = "font_06">■自動車免許<font class = "font_10">（必須）</font>：</font><font class = "font_06">
+											{if $driver_license==1}有
+											{elseif $driver_license==2}無
+											{else}回答なし
+											{/if}
+											</font></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+								</table>
+
+								<form name="test_input" action="{$link.ok}" method="post">
+									<input type = "hidden" name = "family_name" value = "{$family_name}">
+									<input type = "hidden" name = "form_2" value = "{$name}">
+									<input type = "hidden" name = "family_name_kana" value = "{$family_name_kana}">
+									<input type = "hidden" name = "form_3" value = "{$kana}">
+									<input type = "hidden" name = "sex" value = "{$sex}">
+									<input type = "hidden" name = "birth_year" value="{$birth_year}">
+									<input type = "hidden" name = "birth_month" value="{$birth_month}">
+									<input type = "hidden" name = "birth_day" value="{$birth_day}>"
+									<input type = "hidden" name = "forom_password" value="{$password}">
+									<input type = "hidden" name = "form_password_confirm" value="{$password_confirm}">
+									<input type = "hidden" name = "form_mail_address" value="{$mail_address}">
+									<input type = "hidden" name = "form_mail_address_confirm" value="{$mail_address_confirm}">
+									<input type = "hidden" name = "form_4" value="{$postalnumber}">
+									<input type = "hidden" name = "prefecture" value="{$prefecture}">
+									<input type = "hidden" name = "form_5" value="{$municipality}">
+									<input type = "hidden" name = "form_6" value="{$address01}">
+									<input type = "hidden" name = "form_7" value="{$address02}">
+									<input type = "hidden" name = "form_8" value="{$address03}">
+									<input type = "hidden" name = "licence_01" value="{$driver_license}">
+								<!-- この内容で会員登録する ボタン ここから //-->
+									<input type = "image" src = "{$img}/sp/mypage/button_finish.jpg" title = "この内容で会員登録する" alt = "この内容で会員登録する" name="button_finish" id="button_finish" onClick = "this.form.submit()"; onmouseover="MM_swapImage('button_finish','','{$img}/sp/mypage/button_finish_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" />
+								<!-- この内容で会員登録する ボタン ここまで //-->
+								</form>
+<!-- ログイン フォーム ここまで //-->
+
+								<hr class = "mypage" />
+
+								<form name="test_input" action="{$link.cancel}" method="post">
+									<input type = "hidden" name = "family_name" value = "{$family_name}">
+									<input type = "hidden" name = "form_2" value = "{$name}">
+									<input type = "hidden" name = "family_name_kana" value = "{$family_name_kana}">
+									<input type = "hidden" name = "form_3" value = "{$kana}">
+									<input type = "hidden" name = "sex" value = "{$sex}">
+									<input type = "hidden" name = "birth_year" value="{$birth_year}">
+									<input type = "hidden" name = "birth_month" value="{$birth_month}">
+									<input type = "hidden" name = "birth_day" value="{$birth_day}">
+									<input type = "hidden" name = "forom_password" value="{$password}">
+									<input type = "hidden" name = "form_password_confirm" value="{$password_confirm}">
+									<input type = "hidden" name = "form_mail_address" value="{$mail_address}">
+									<input type = "hidden" name = "form_mail_address_confirm" value="{$mail_address_confirm}">
+									<input type = "hidden" name = "form_4" value="{$postalnumber}">
+									<input type = "hidden" name = "prefecture" value="{$prefecture}">
+									<input type = "hidden" name = "form_5" value="{$municipality}">
+									<input type = "hidden" name = "form_6" value="{$address01}">
+									<input type = "hidden" name = "form_7" value="{$address02}">
+									<input type = "hidden" name = "form_8" value="{$address03}">
+									<input type = "hidden" name = "licence_01" value="{$driver_license}">
+								<!-- 入力画面に戻る ボタン ここから //-->
+									<input type = "image" src = "{$img}/sp/mypage/button_back.jpg" title = "入力画面に戻る" alt = "入力画面に戻る" name="button_back_sp" id="button_back_sp" onClick = "this.form.submit()"; onmouseover="MM_swapImage('button_back_sp','','{$img}/sp/mypage/button_back_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" />
+								<!-- 入力画面に戻る ボタン ここまで //-->
+								</form>
+
+								<hr class = "mypage" />
+
+<!-- マイページTOP ボタン ここから //-->
+								<a href="{$link.mypage}"><input type = "image" value = "submit" src = "{$img}/sp/mypage/button_mypage_top.jpg" title = "マイページTOP" alt = "マイページTOP" name="button_mypage_top_sp" id="button_mypage_top_sp" onmouseover="MM_swapImage('button_mypage_top_sp','','{$img}/sp/mypage/button_mypage_top_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" /></a>
+<!-- マイページTOP ボタン ここまで //-->
+
+								<hr class = "mypage" />
+
+<!-- ログアウトボタン ここから //-->
+								<a href = "/mypage/logout/exec
+	"><img src = "{$img}/sp/mypage/button_logout.jpg" name="logout_button_sp" id="logout_button_sp" onmouseover="MM_swapImage('logout_button_sp','','{$img}/sp/mypage/button_logout_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" /></a>
+<!-- ログアウトボタン ここまで //-->
+
+<!-- スマートフォン ここまで //-->
+
+						</div>
+
+					</div>
+
+					<div class = "float_01"></div>
+
+				</div>
+
+<!-- コンテンツ ここから //-->
+				<!--<div class = "contents_area_02 visible-lg visible-md visible-sm">
+
+					<div class = "button_03">
+
+						<a href = "/"><img src = "{$img}/back_top.jpg" width = "100%" alt="トップページに戻る" title = "トップページに戻る" name="contact_button_01" id="contact_button_01" onmouseover="MM_swapImage('contact_button_01','','{$img}/back_top_over.jpg',1)" onmouseout="MM_swapImgRestore()" onmouseup = "this.src = '{$img}/back_top.jpg'" /></a>
+
+					</div>
+
+				</div>//-->
+<!-- コンテンツ ここまで //-->
+
+			</div>
+<!-- メインコンテンツ ここまで //-->
+
+<!-- ページTOPに戻る ここから //-->
+			<script type = "text/javascript">page_top();</script>
+<!-- ページTOPに戻る ここまで //-->
+
+<!-- 公式サイトTOP ここから //-->
+			<script type = "text/javascript">official_top_sp();</script>
+<!-- 公式サイトTOP ここまで //-->
+
+		</div>
+
+<!-- footer ここから //-->
+		<script type = "text/javascript">Footer();</script>
+<!-- footer ここまで //-->
+
+	</body>
+
+</html>

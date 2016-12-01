@@ -1,0 +1,217 @@
+{include file="./templates/header.tpl" title="パズルキングダム 公式サイト｜マイページ/パスワード再設定/秘密の質問を入力" keyword="パズルキングダム,パズル,アプリ,ゲーム,モンスター" desciption="爽快パズルで白熱バトル!! パズルキングダム」は自由にドロップを動かして遊ぶ爽快3マッチパズルゲームです。コンボを決めて敵に大ダメージを与えよう!! キミだけのチームを作ろう!!登場キャラクターは総勢200体!!ダンジョンやガチャで新たなキャラをゲットしよう!!進化や合成を駆使してキミだけの最強チームを作ろう!! １分で遊べるミニゲームを実装!!短時間で遊べるミニゲームを楽しもう!!ミニゲーム第一弾は《爽快シューティング》パズルの後はシューティングで気分爽快!!" no_script = "【注意！！】このページでは、JavaScriptを使用していますので、JavaScriptを無効にしている場合、サイトが正常に機能しない可能性があります。<br />ブラウザの設定でJavaScriptを有効にしてください。<br />※設定方法につきましては、各ブラウザで異なるため、お手数ですが個別にご対応ください。" header_id = 0 contents_title = "マイページ" }
+
+<!-- タイトル ここから //-->
+								<img src = "{$img}/mypage/title_08.jpg" width = "100%" title = "パスワード再設定" alt = "パスワード再設定" />
+<!-- タイトル ここまで //-->
+
+<!-- パンくずリスト ここから //-->
+									<div align = "left" class = "margin_02 float_left"><font class = "font_07"><a href="{$link.mypage}" class = "link_04">ログイン画面</a> ＞ パスワード再設定</font></div>
+<!-- パンくずリスト ここまで //-->
+
+									<div class = "mypage_text float_01" align = "left"><font class = "font_07"><br />以下のフォームに、秘密の質問と答えを入力して「次へ」ボタンを押してください。</font><br /></div>
+
+<!-- ログイン フォーム ここから //-->
+									<form name = "password_remind" action = "{$link.submit}" method = "post">
+										<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_02">
+											<tr>
+												<td class = "table_02_td">
+													<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■登録したメールアドレス：</font></div>
+															</td>
+															<td>
+																<input type = "text" name = "mail_address" class = "form_03 no_outline" />
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■秘密の質問：</font></div>
+															</td>
+															<td>
+																<select name = "secret_question" class = "form_03 no_outline">
+																{foreach from=$secret_question_list item=question name=loop}
+																	<option value={$smarty.foreach.loop.iteration}  >{$question}</option>
+																{/foreach}
+																</select>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■答え：</font></div>
+															</td>
+															<td>
+																<input type = "text" name = "secret_answer" class = "form_03 no_outline" />
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+<!-- 次へ ここから //-->
+							<div class = "mypage_button_02 float_01">
+								<input type = "image" src = "{$img}/mypage/button_next.jpg" name="button_next" id="button_next" alt="次へ" title = "次へ" onClick = "this.form.submit()"; onmouseover="MM_swapImage('button_next','','{$img}/mypage/button_next_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" />
+							</div>
+<!-- 次へ ここまで //-->
+							</form>
+
+<!-- ログイン フォーム ここまで //-->
+
+							</div>
+
+							</div></div>
+
+<!-- 罫線 ここから //-->
+							<div class = "contents_area_border_01_b visible-lg visible-md visible-sm"><div class = "float_left"><img src = "{$img}/frame_b_l.gif" title = "frame_b_l" alt = "frame_b_l" /></div>&nbsp;<div class = "float_right"><img src = "{$img}/frame_b_r.gif" title = "frame_b_r" alt = "frame_b_r" /></div></div>
+<!-- 罫線 ここまで //-->
+
+<!-- 公式サイトTOP ここから //-->
+						<script type = "text/javascript">official_top();</script>
+<!-- 公式サイトTOP ここまで //-->
+
+<!-- PC ここまで //-->
+
+<!-- スマートフォン ここから //-->
+							<div class = "contents_area_border visible-xs">
+
+<!-- タイトル ここから //-->
+								<img src = "{$img}/sp/mypage/title_08.jpg" width = "100%" title = "パスワード再設定" alt = "パスワード再設定" />
+<!-- タイトル ここまで //-->
+
+<!-- パンくずリスト ここから //-->
+								<div align = "left" class = "margin_07"><div class = "float_left"><font class = "font_08"><a href = "{$link.mypage}" class = "link_02">ログイン画面</a> ＞ パスワード再設定</font></div></div>
+<!-- パンくずリスト ここまで //-->
+
+<!-- ログイン フォーム ここから //-->
+								<form name = "password_remind" action = "{$link.submit}" method = "post">
+									<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+										<tr>
+											<td>
+												<hr class = "mypage" />
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<font class = "font_06">以下のフォームに、秘密の質問を入力して「次へ」ボタンを押してください。</font></div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<hr class = "mypage" />
+											</td>
+										</tr>
+										<tr>
+											<td align = "left">
+												<font class = "font_06">■登録したメールアドレス：</font>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type = "text" name = "mail_address" class = "form_04 no_outline" />
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<hr class = "mypage" />
+											</td>
+										</tr>
+										<tr>
+											<td align = "left">
+												<font class = "font_06">■秘密の質問：</font>
+											</td>
+										</tr>
+										<tr>
+											<td align = "left">
+												<select name = "secret_question" class = "form_04 no_outline">
+													{foreach from=$secret_question_list item=question name=loop}
+													<option value={$smarty.foreach.loop.iteration} >{$question}</option>
+													{/foreach}
+												</select><br />
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<hr class = "mypage" />
+											</td>
+										</tr>
+										<tr>
+											<td align = "left">
+												<font class = "font_06">■答え：</font>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type = "text" name = "secret_answer" class = "form_04 no_outline" />
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<hr class = "mypage" />
+											</td>
+										</tr>
+										<tr>
+											<td align = "center">
+												<input type = "image" src = "{$img}/sp/mypage/button_next.jpg" name="button_next" id="button_next_sp" alt="次へ" title = "次へ" onClick = "this.form.submit()"; onmouseover="MM_swapImage('button_next_sp','','{$img}/sp/mypage/button_next_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" />
+													<!-- <img src = "{$img}/mypage/button_01.jpg" name="button_01_sp" id="button_01_sp" alt="ログイン" title = "ログイン" onmouseover="MM_swapImage('button_01_sp','','{$img}/mypage/button_01_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" /></a> -->
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<hr class = "mypage" />
+											</td>
+										</tr>
+									</table>
+								</form>
+<!-- ログイン フォーム ここまで //-->
+
+<!-- スマートフォン ここまで //-->
+
+					</div>
+
+					<div class = "float_01"></div>
+
+				</div>
+
+				<!--<div class = "contents_area_02 visible-lg visible-md visible-sm">
+
+					<div class = "button_03">
+
+						<a href = "/"><img src = "{$img}/back_top.jpg" width = "100%" alt="トップページに戻る" title = "トップページに戻る" name="contact_button_01" id="contact_button_01" onmouseover="MM_swapImage('contact_button_01','','{$img}/back_top_over.jpg',1)" onmouseout="MM_swapImgRestore()" onmouseup = "this.src = '{$img}/back_top.jpg'" /></a>
+
+					</div>
+
+				</div>//-->
+
+			</div>
+<!-- メインコンテンツ ここまで //-->
+
+<!-- ページTOPに戻る ここから //-->
+			<script type = "text/javascript">page_top();</script>
+<!-- ページTOPに戻る ここまで //-->
+
+<!-- 公式サイトTOP ここから //-->
+			<script type = "text/javascript">official_top_sp();</script>
+<!-- 公式サイトTOP ここまで //-->
+
+		</div>
+
+<!-- footer ここから //-->
+		<script type = "text/javascript">Footer();</script>
+<!-- footer ここまで //-->
+
+	</body>
+
+</html>
+
+

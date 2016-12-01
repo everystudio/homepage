@@ -1,0 +1,1376 @@
+@charset "UTF-8";
+/* CSS */
+
+/* margin padding　2 上下 左右　3 上 左右 下　4 上 右 下 左 */
+/* 複数の箇所で定義されている場合は、idは不可のため、classを使用 */
+
+
+/*------------------------------------------------------
+リセット
+------------------------------------------------------*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin: 0px; padding: 0px; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; }
+
+img,abbr,acronym,fieldset { border: 0px; margin: 0px; padding: 0px; }
+
+/* PHPのコード内では、外部スタイルシートが利用できないため、専用のスタイルを定義 */
+td.td_php { margin: 0px; padding: 0px; }
+
+/*--------------------------------------------------------------------
+基本
+--------------------------------------------------------------------*/
+
+/* コンテンツ全体 */
+body { background-color: #44382a; font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', sans-serif; margin: 0px; }
+
+/* 罫線 ※調整済みのため、変更しない ※bottomはtop + 4px */
+hr { height: 1px; border: none; border-bottom: 1px dotted #fff; margin: 8px 0px 12px 0px; }
+
+/* PHPのコード内では、外部スタイルシートが利用できないため、専用のスタイルを定義 */
+hr.hr_php { height: 1px; border: none; border-bottom: 1px dotted #fff; margin: 8px 0px 12px 0px; }
+
+/* マイページ 用 */
+hr.mypage { height: 1px; border: none; border-bottom: 1px solid #a27b43; margin: 8px 0px 12px 0px; }
+hr.mypage_history { width: 660px; height: 1px; border: none; border-bottom: 1px solid #a27b43; margin: 20px 0px; }
+hr.mypage_login_info { width: 564px; height: 1px; border: none; border-bottom: 1px solid #a27b43; margin: 20px auto 22px auto; }
+
+/* フォーム */
+input { background-color:#fff; border:solid 1px #bcbcbc; vertical-align:middle; color:#333; font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', sans-serif; font-size: 10pt; line-height: 10pt; letter-spacing: 1px; }
+textarea { background-color:#fff; border:solid 1px #bcbcbc; color:#333; font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', sans-serif; font-size: 10pt; line-height: 10pt; letter-spacing: 1pt; }
+select { border:solid 1px #bcbcbc; font-size: 10pt; line-height: 10pt; font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', sans-serif; color: #333; }
+option { font-size: 10pt; line-height: 10pt; font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', sans-serif; color: #333; }
+
+/* 基本フォント */
+font { font-size: 10pt; font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', sans-serif; font-weight: normal; color: #ffffee; line-height: 13pt; }
+
+/* PHPのコード内では、外部スタイルシートが利用できないため、専用のスタイルを定義 */
+font.font_php { font-size: 10pt; font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', sans-serif; font-weight: normal; color: #ffffee; line-height: 13pt; }
+font.font_title_php { font-size: 11pt; font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', sans-serif; font-weight: normal; color: #ffffee; line-height: 13pt; }
+
+/* 強調 */
+.font_01 { font-size: 10pt; font-weight: normal; line-height: 12pt; color: #ffdffe; }
+
+/* リンク、インフォメーションのページリンク */
+.font_02 { font-size: 8pt; font-weight: normal; line-height: 10pt; color: #b3a693; }
+
+/* コピーライト */
+.font_03 { font-size: 8pt; font-weight: normal; line-height: 8pt; color: #9d8f7b; }
+
+/* FAQ */
+.font_04 { font-size: 10pt; font-weight: normal; line-height: 8pt; color: #b3a693; }
+
+/* ゲーム概要 */
+.font_05 { font-size: 10pt; font-weight: normal; line-height: 13pt; color: #ffffee; }
+
+/* マイページ */
+
+/* 見出し */
+.font_06 { font-size: 11pt; font-weight: bold; line-height: 14pt; color: #4e2104; }
+
+/* 基本 */
+.font_07 { font-size: 10pt; font-weight: normal; line-height: 13pt; color: #4e2104; }
+
+/* SP版 パンくずリスト */
+.font_08 { font-size: 8pt; font-weight: normal; line-height: 10pt; color: #ffffee; }
+
+/* SP版 強調 */
+.font_09 { font-size: 10pt; font-weight: normal; line-height: 13pt; color: #de5179; }
+
+/* 必須 */
+.font_10 { font-size: 11pt; font-weight: normal; line-height: 14pt; color: #de5179; }
+
+/* ※印コメント */
+.font_11 { font-size: 9pt; font-weight: normal; line-height: 12pt; color: #4e2104; }
+
+/* PC板 パンくずリスト */
+.font_12 { font-size: 10pt; font-weight: bold; line-height: 13pt; color: #4e2104; }
+
+
+/* 基本 リンク */
+a { color: #ffffee; text-decoration: none; }
+a:link { color: #ffffee; text-decoration: none; }
+a:hover { color: #fff; text-decoration: underline; }
+a:active { color: #fff; }
+
+/* PHP 用 */
+a.link_php { color: #ffffee; text-decoration: none; }
+a.link_php:link { color: #ffffee; text-decoration: none; }
+a.link_php:hover { color: #fff; text-decoration: underline; }
+a.link_php:active { color: #fff; }
+
+/* コンテンツ リンク */
+a.link_01 { color: #b3a693; text-decoration: none; }
+a.link_01:link { color: #b3a693; text-decoration: none; }
+a.link_01:hover { color: #fff; text-decoration: underline; }
+
+/* ページTOPに戻る リンク */
+a.link_02 { color: #ffffdd; text-decoration: none; }
+a.link_02:link { color: #ffffdd; text-decoration: none; }
+a.link_02:hover { color: #fff; text-decoration: underline; }
+
+/* FAQ リンク */
+a.link_03 { color: #dafaff; text-decoration: none; }
+a.link_03:link { color: #dafaff; text-decoration: none; }
+a.link_03:hover { color: #fff; text-decoration: underline; }
+
+/* マイページ リンク */
+a.link_04 { color: #4e2104; text-decoration: none; }
+a.link_04:link { color: #4e2104; text-decoration: none; }
+a.link_04:hover { color: #5e2104; text-decoration: underline; }
+
+/* アウトライン消去 */
+.no_outline { outline: none; }
+
+/* h1タグはSEO対策で必要 */
+h1 { font-size: 11pt; font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, 'メイリオ', sans-serif; font-weight: normal; color: #ffffee; line-height: 13pt; }
+
+
+/*--------------------------------------------------------------------
+テンプレート Footer
+--------------------------------------------------------------------*/
+
+/* JavaScript OFF */
+#noscript { width: 100%; }
+#noscript_text { width: 862px; font-size: 11pt; color: #fff; text-align: left; }
+
+/* footer */
+#footer { width: 1000px; height: 50px; background-color: #44382a; margin: auto; }
+#footer_maintenance { width: 1000px; height: 30px; background-color: #44382a; margin: auto; }
+
+/* bootstrap を外したときのことを考えて padding-top は削除しない */
+#footer_link { height: 50px; padding-top: 10px; }
+/* bootstrap を外したときのことを考えて padding-top は削除しない */
+#footer_link_maintenance { height: 30px; padding-top: 10px; }
+
+/* footerリンクのテキストとスペース */
+.footer_link_text { margin: 7px 0px 0px 0px; }
+.footer_link_space { width: 10px; }
+
+/* コピーライト */
+#copy_right { margin: 9px auto 10px auto; text-align: center; }
+
+/* 回り込み */
+.float_left { float: left; }
+.float_right { float: right; }
+
+/* 回り込み解除 */
+.float_01 { clear: left; }
+
+/* 非表示 */
+.display_none { display: none; }
+
+/* ページTOPに戻る margin-topはタグの構成上無効 */
+.page_top_link { margin: 0px auto 10px 896px; clear: left; }
+
+
+/*--------------------------------------------------------------------
+テンプレート
+--------------------------------------------------------------------*/
+
+/* コンテンツ ウェブサイト全体のサイズ w996px 左右ボーダー 各2px 合計 w1000px */
+/* bootstrap を外した場合は、width: 996px */
+#contents { width: 1000px; background-color: #5d492c; border-left: 2px #393026 solid; border-right: 2px #393026 solid; border-bottom: 2px #393026 solid; margin: auto; -webkit-border-bottom-left-radius: 10px; -moz-border-bottom-left-radius: 10px;; -webkit-border-bottom-right-radius: 10px; -moz-border-bottom-right-radius: 10px; }
+
+/* メインコンテンツ コンテンツの最大サイズ */
+#main_contents { width: 996px; margin: 0px auto 0px auto; }
+
+/* コンテンツエリア イメージには、左右のボーダーは含まれない */
+#contents_area_main_image { width: 996px; height: 350px; margin: auto auto 10px auto; }
+
+/* コンテンツエリア */
+.contents_area { width: 976px; margin: auto auto 10px auto; border: 0px solid #fff; }
+/* コンテンツエリア（スマートフォンタイトル画像用） */
+.contents_area_02 { width: 880px; margin: auto auto 10px auto; border: 0px solid #fff; }
+
+/* コンテンツタイトル */
+.contents_title { width: 960px; margin: 0px auto; }
+
+/* テーブル */
+.table_01 { width: 760px; border-top: 1px #ffffbb solid; border-left: 1px #ffffbb solid; }
+.table_01 td { text-align: left; padding: 22px; border-right: 1px #ffffbb solid; border-bottom: 1px #ffffbb solid; }
+
+/* 各カラム */
+
+/* TOP メインイメージ */
+#column_1_main_image { width: 996px; margin: auto; clear:left; }
+
+/* TOP */
+.column_1 { width: 976px; text-align: center; margin: auto; clear:left; }
+
+/* その他コンテンツ */
+.column_1_2 { width: 900px; background-color: #352110; border: 0px solid #220000; margin: auto; padding: 20px; margin-bottom: 10px; clear:left; }
+
+/* お問い合わせ */
+.column_2 { width: 450px; float: left; border: 0px solid #fff; }
+.column_2_r { width: 450px; float: right; border: 0px solid #fff; }
+
+/* ゲーム概要 */
+.column_3 { width: 320px; float: left; }
+.column_3_r { width: 320px; float: right; }
+
+/* 枠デザイン（横）vagrant で作業をするときは、スタイルのみ相対パスで記述 */
+.contents_area_border_01 { width: 860px; height: 30px; background: url(../../images/frame_w_t.gif) repeat-x 0px top; clear:left; margin: 0px; padding: 0px; }
+.contents_area_border_01_b { width: 860px; height: 30px; background: url(../../images/frame_w_b.gif) repeat-x 0px bottom; clear:left; margin: 0px; padding: 0px; }
+
+/* 枠デザイン（縦） */
+.contents_area_border_02 { width: 30px; background: url(../../images/frame_h_l.gif) repeat-y 0px bottom; float:left; }
+.contents_area_border_02_r { width: 860px; background: url(../../images/frame_h_r.gif) repeat-y 830px bottom; float:left; }
+
+/* 枠デザインのコンテンツ */
+.contents_area_border_03 { width: 800px; margin: 0px auto; padding: 20px 20px; text-align: center; }
+.contents_area_border_03_2 { width: 760px; margin: 20px auto 0px auto; padding: 20px 20px; text-align: center; }
+
+/* 下地の色はここで調整 */
+.contents_area_border_03_3 { width: 760px; background-color: #f4ec99; margin: 20px auto 20px auto; padding: 30px; text-align: center; }
+
+/* 詳細ページのタイトル paddingは、中のテキストに影響する */
+.sub_title { width: 760px; background-color: #230000; text-align: left; margin: 0px auto; margin: 0px 0px 0px 0px; padding: 16px 16px 16px 16px; }
+
+/* 詳細ページのコンテンツ */
+.page_contents { width: 760px; text-align: left; padding: 15px 0px 0px 15px; }
+
+/* PC版 「公式サイトTOP」リンク、マイページ：※印コメント SP版 パンくずリスト、一般フォーム */
+.margin_01 { margin-top: 5px; }
+/* SP版 プルダウンメニュー・コメント・サブタイトル PC版 秘密の質問 */
+.margin_01_2 { margin-top: 5px; }
+/* PC版 プルダウンメニュー */
+.margin_01_3 { margin-left: 10px; }
+
+/* PC版 パンくずリスト SP版 コメント */
+.margin_02 { margin-top: 3px; margin-left: 5px; }
+
+/* PC版 「次回から自動でログインする」 */
+.margin_02_2 { margin-top: 3px; margin-left: 5px; }
+
+/* 項目の見出し */
+.margin_03 { margin: 0px 10px 0px 10px; }
+
+/* マイページTOPの項目の見出し */
+.margin_04 { margin-top: 8px; margin-left: 0px; margin-right: 10px; }
+
+/* PC版 コメント */
+.margin_05 { margin-left: 20px; }
+
+/* PC版 「▲まだ登録がお済みでない方はこちら」 SP版 「※パスワードを忘れた方はこちら」「▲まだ登録がお済みでない方はこちら」 */
+.margin_09 { margin-top: 2px; margin-left: 6px; }
+
+/* SP版 「次回から自動でログインする」 */
+.margin_10 { margin-top: 4px; margin-left: 5px; }
+
+/* SP版 「同意する」 */
+.margin_12 { margin-top: 2px; margin-left: 5px; }
+
+/* SP版 ボタン */
+.margin_14 { margin-left: 3px; }
+
+/* SP版 「同意する」チェックボックス */
+.margin_15 { margin-top: 4px; margin-left: 10px; }
+
+/* PC版 「※パスワードを忘れた方はこちら」 */
+.margin_16 { margin-left: 10px; }
+
+/* 秘密の質問のプルダウンメニューのフォーム */
+.margin_17 { margin-top: 3px; margin-right: 6px; }
+
+/* SP版 項目の見出し */
+.margin_19 { margin-left: 1px; }
+
+/* 不要？ */
+.margin_06 { margin-left: 5px; }
+.margin_07 { margin-top: 8px; }
+.margin_08 { margin-top: 3px; margin-left: 25px; }
+.margin_11 { margin-top: 2px; margin-left: 11px; }
+.margin_13 { margin-top: 12px; margin-left: 5px; }
+.margin_18 { margin-top: 3px; margin-left: 5px; margin-bottom: 10px; }
+
+
+/*--------------------------------------------------------------------
+スライド
+--------------------------------------------------------------------*/
+
+/* スライド */
+#slides { width: 978px; height: 296px; position:relative; margin: 0px auto; }
+
+/* スライドコンテンツ */
+.slides_container { width:978px; height: 280px; margin: 0px auto; }
+
+/* 前へ、次へボタン */
+#preNex { position: absolute; top:0px; left:0px; display:none; z-index:200; border: 0px solid #fff; }
+#preNex_off { position: absolute; top:0px; left:0px; display:none; z-index:200; border: 0px solid #fff; }
+
+#slides .prev { position: absolute; top: 198px; left: 7px; text-align: left; float: right; z-index:1; }
+#slides .next { position: absolute; top: 198px; left: 900px; text-align: right; float: left; z-index:1; }
+
+/* スライド下ボタン */
+/* 1つ増減するごとに14px left をずらす必要がある */
+.pagination { width: 100px; position:absolute; top: 295px; left: 468px; z-index: 200; margin: 8px 0px 8px 1px; }
+.pagination li { margin: 0px 1px; list-style: none; float: left; }
+.pagination li a { display: block; width: 12px; float: left; overflow: hidden; }
+
+/* スライド画像 */
+#slide_01 { width: 976px; height: 280px; }
+#slide_02 { width: 976px; height: 280px; }
+#slide_03 { width: 976px; height: 280px; }
+
+
+/*--------------------------------------------------------------------
+ゲーム概要
+--------------------------------------------------------------------*/
+
+/* ゲーム概要 左 */
+.sumally_01 { width: 320px; height: 700px; background: url(../../images/top/sumally_01.jpg) 0px 0px no-repeat; margin-right: 8px; }
+
+/* ゲーム概要 中央 */
+.sumally_02 { width: 320px; height: 700px; background: url(../../images/top/sumally_02.jpg) 0px 0px no-repeat; margin-right: 8px; }
+
+/* ゲーム概要 右 */
+.sumally_03 { width: 320px; height: 700px; background: url(../../images/top/sumally_03.jpg) 0px 0px no-repeat; }
+
+/* ゲーム概要 テキスト */
+.sumally_text { width: 264px; margin: 0px auto; padding: 570px 0px 0px 0px; } 
+
+
+/*--------------------------------------------------------------------
+インフォメーション、インフォメーション右バナー
+--------------------------------------------------------------------*/
+
+/* インフォメーション 背景色等を含めた全体の定義 */
+.information_area { width: 648px; height: 260px; text-align: left; float: left; background: url(../../images/top/information_bg.jpg) 0px 0px no-repeat; }
+
+/* インフォメーション タイトル */
+.information_title { width: 632px; margin-left: 8px; padding-top: 8px; }
+
+/* インフォメーション テーブル */
+.information_table { width: 592px; margin: 19px auto 0px auto; }
+.link_icon { position: relative; top: -2px; }
+
+/* インフォメーション右バナー */
+.info_right_banner_area { width: 320px; float: right; }
+.info_right_banner { width: 320px; margin-bottom: 7px; }
+.info_right_banner_b { width: 320px; }
+
+
+/*--------------------------------------------------------------------
+よくある質問
+--------------------------------------------------------------------*/
+
+.faq_q { cursor: pointer; }
+
+ /* オープンクローズ機能を利用する場合は、ここを「none」にする */
+ /* オープンクローズ機能を利用しない場合は、ここを「block」にする */
+ /* 「scripts/library.js」の方も編集が必要です */
+.faq_a { display: none; }
+
+
+/*--------------------------------------------------------------------
+お問い合わせ
+--------------------------------------------------------------------*/
+
+/* 各項目 */
+.form_01 { width: 500px; }
+
+/* 詳細内容 */
+.form_02 { width: 500px; height: 300px; }
+
+.mail_address_from_confirm { word-break: break-all; }
+
+.button_area_01 { margin-bottom: 10px; text-align: center; }
+.button_area_02 { text-align: center; }
+
+.button_01 { width: 272px; border-style: none; outline: none; }
+.button_02 { width: 272px; border-style: none; outline: none; }
+
+.contact_text { width: 730px; margin: 0px auto; }
+
+
+/*--------------------------------------------------------------------
+マイページ
+--------------------------------------------------------------------*/
+
+.button_03 { width: 722px; margin: 0px auto; border-style: none; outline: none; }
+
+.step { width: 670px; margin: 10px auto 0px auto; border-style: none; outline: none; }
+
+.mypage_text { width: 670px; margin: 0px 16px; }
+
+/* フォーム テーブル */
+.table_02 { width: 666px; border: 2px #60433c solid; background-color: #fefcce; margin: 16px auto 0px auto; clear: left; }
+.table_02_td { text-align: left; padding: 20px; }
+
+/* フォーム テーブル タイトル有り */
+.table_02_title { width: 666px; border: 2px #60433c solid; background-color: #fefcce; margin: 6px auto 0px auto; clear: left; }
+
+/* フォーム テーブル（内側） */
+.table_03 { width: 626px; }
+.table_03 td { vertical-align: middle; }
+
+.table_dotline_01 { width: 160px; border-right: 1px dotted #412702; padding-right: 10px; vertical-align: middle; }
+
+/* PC版 フォーム */
+.form_03 { width: 444px; height: 25px; margin-left: 10px; }
+/* SP版 フォーム */
+.form_04 { width: 430px; height: 25px; margin-left: 10px; margin-right: 10px; }
+
+/* PC版 秘密の質問のフォーム */
+.form_05 { width: 444px; height: 25px; }
+/* SP版 秘密の質問のフォーム */
+.form_06 { width: 430px; height: 25px; }
+
+/* PC版 ボタン上余白無し */
+.mypage_button_01 { width: 564px; margin: 0px auto; border: 0px; outline: none; }
+
+/* PC版 ボタン上余白有り */
+.mypage_button_02 { width: 564px; margin: 20px auto 0px auto; border: 0px; outline: none; }
+.mypage_button_02_form { clear: left; }
+
+.mypage_button_text_01 { width: 564px; margin: 3px auto 0px auto; border: 0px; outline: none; }
+
+.logout_button { width: 100px; }
+
+/* 新規会員登録時の使用許諾約款とプライバシーポリシー */
+/* スクロールバーの幅 14pxをマイナス */
+.legal_document { width: 670px; margin: 0px auto; }
+.legal_document_contents { width: 670px; height: 380px; border: 1px solid #4e180e; overflow: scroll; direction: rtl; }
+
+.confirm_contents_w { width: 440px; }
+
+
+/* タブレットPC（iPad 横 w1024px）用 PC用のサイトが w1000px で作られているため、指定せずにそのまま表示する */
+@media screen and (max-width: 1024px) {
+
+}
+
+
+/* タブレットPC（iPad 縦 w768px）用 */
+@media screen and (max-width: 768px) {
+
+/*--------------------------------------------------------------------
+基本
+--------------------------------------------------------------------*/
+
+/* コンテンツ全体 */
+body { background-color: #44382a; margin: 0px; }
+
+/* フォーム */
+input { background-color:#fff; border:solid 1px #bcbcbc; vertical-align:middle; color:#333; font-size: 10pt; line-height: 10pt; letter-spacing: 1px; }
+textarea { background-color:#fff; border:solid 1px #bcbcbc; color:#333; font-size: 10pt; line-height: 10pt; letter-spacing: 1pt; }
+select { border:solid 1px #bcbcbc; font-size: 10pt; line-height: 10pt; color: #333; }
+option { font-size: 10pt; line-height: 10pt; color: #333; }
+
+hr.mypage_history { width: 524px; height: 1px; border: none; border-bottom: 1px solid #a27b43; margin: 10px 0px; }
+hr.mypage_login_info { width: 524px; height: 1px; border: none; border-bottom: 1px solid #a27b43; margin: 20px auto 22px auto; }
+
+/* 基本フォント */
+font { font-size: 9pt; font-weight: normal; color: #ffffee; line-height: 11pt; }
+
+/* PHP 用 */
+font.font_php { font-size: 9pt; font-weight: normal; color: #ffffee; line-height: 11pt; }
+
+/* 強調 */
+.font_01 { font-size: 10pt; font-weight: normal; line-height: 12pt; color: #ffdffe; }
+
+/* リンク、インフォメーションのページリンク */
+.font_02 { font-size: 8pt; font-weight: normal; line-height: 10pt; color: #b3a693; }
+
+/* コピーライト */
+.font_03 { font-size: 8pt; font-weight: normal; line-height: 8pt; color: #9d8f7b; }
+
+/* FAQ */
+.font_04 { font-size: 10pt; font-weight: normal; line-height: 8pt; color: #b3a693; }
+
+/* ゲーム概要 */
+.font_05 { font-size: 9pt; font-weight: normal; line-height: 11pt; color: #ffffee; }
+
+.font_08 { font-size: 8pt; font-weight: normal; line-height: 10pt; color: #ffffee; }
+
+/* PC版 パンくずリスト、「次回から自動でログインする」 SP版 コメント */
+.margin_02 { margin-top: 2px; margin-left: 5px; }
+
+/* 項目の見出し */
+.margin_03 { margin: 0px 10px 0px 2px; }
+
+/* PC版 コメント */
+.margin_05 { margin-left: 18px; }
+
+/* 不要？ */
+.margin_07 { margin-top: 4px; margin-left: 5px; }
+.margin_17 { margin-top: 0px; margin-left: 10px; }
+
+/* アウトライン消去 */
+.no_outline { outline: none; }
+
+/* h1タグはSEO対策で必要 */
+h1 { font-size: 11pt; font-weight: normal; color: #ffffee; line-height: 13pt; }
+
+
+/*--------------------------------------------------------------------
+テンプレート Footer
+--------------------------------------------------------------------*/
+
+/* JavaScript OFF */
+#noscript { width: 100%; }
+#noscript_text { width: 700px; font-size: 11pt; color: #fff; text-align: left; }
+
+/* footer */
+#footer { width: 768px; height: 50px; background-color: #44382a; margin: auto; }
+
+/* bootstrap を外したときのことを考えて padding-top は削除しない */
+#footer_link { height: 50px; padding-top: 10px; }
+.footer_link_text { margin: 10px 0px 0px 0px; }
+.footer_link_space { width: 10px; }
+#copy_right { margin: 10px auto 10px auto; text-align: center; }
+
+/* 回り込み */
+.float_left { float: left; }
+.float_right { float: right; }
+
+/* 回り込み解除 */
+.float_01 { clear: left; }
+
+/* ページTOPに戻る margin-topはタグの構成上無効 */
+.page_top_link { margin: 0px auto 10px 667px; clear: left; }
+
+
+/*--------------------------------------------------------------------
+テンプレート
+--------------------------------------------------------------------*/
+
+/* コンテンツ ウェブサイト全体のサイズ w996px 左右ボーダー 各2px 合計 w1000px */
+/* bootstrap を外した場合は、width: 996px */
+#contents { width: 768px; background-color: #5d492c; border-left: 2px #393026 solid; border-right: 2px #393026 solid; border-bottom: 2px #393026 solid; margin: auto; -webkit-border-bottom-left-radius: 10px; -moz-border-bottom-left-radius: 10px;; -webkit-border-bottom-right-radius: 10px; -moz-border-bottom-right-radius: 10px; }
+
+/* カテゴリタイトル */
+.contents_title { width: 748px; margin: 0px auto; }
+
+/* メインコンテンツ コンテンツの最大サイズ */
+#main_contents { width: 764px; margin: 0px auto; }
+
+/* コンテンツエリア */
+#contents_area_main_image { width: 764px; height: 268px; margin: auto auto 10px auto; }
+
+.contents_area { width: 748px; margin: auto auto 10px auto; border: 0px solid #fff; }
+.contents_area_02 { width: 700px; margin: auto auto 10px auto; border: 0px solid #fff; }
+
+/* テーブル */
+.table_01 { width: 648px; border-top: 1px #ffffbb solid; border-left: 1px #ffffbb solid; }
+.table_01 td { text-align: left; padding: 10px; border-right: 1px #ffffbb solid; border-bottom: 1px #ffffbb solid; }
+
+.table_02 { width: 520px; border: 2px #60433c solid; background-color: #fefcce; margin: 10px auto 0px auto; }
+.table_02_td { text-align: left; padding: 10px; }
+
+.table_03 { width: 500px; }
+.table_03 td { padding-left: 10px; vertical-align: middle; }
+
+.table_dotline_01 { width: 160px; border-right: 1px dotted #412702; vertical-align: middle; }
+
+/* 各カラム */
+
+/* TOP メインイメージ */
+#column_1_main_image { width: 764px; margin: auto; clear:left; }
+
+/* TOP */
+.column_1 { width: 748px; text-align: center; margin: auto; clear:left; }
+
+/* その他コンテンツ */
+.column_1_2 { width: 748px; background-color: #352110; border: 0px solid #220000; margin: auto; padding: 20px; margin-bottom: 10px; clear:left; }
+
+/* お問い合わせ */
+.column_2 { width: 374px; float: left; border: 0px solid #fff; }
+.column_2_r { width: 374px; float: right; border: 0px solid #fff; }
+
+/* ゲーム概要 */
+.column_3 { width: 244px; float: left; }
+.column_3_r { width: 244px; float: right; }
+
+/* 枠デザイン（横） */
+.contents_area_border_01 { width: 708px; height: 30px; background: url(../../images/frame_w_t.gif) repeat-x 0px top; clear:left; margin: 0px; padding: 0px; }
+.contents_area_border_01_b { width: 708px; height: 30px; background: url(../../images/frame_w_b.gif) repeat-x 0px bottom; clear:left; margin: 0px; padding: 0px; }
+
+/* 枠デザイン（縦） */
+.contents_area_border_02 { width: 30px; background: url(../../images/frame_h_l.gif) repeat-y 0px bottom; float:left; }
+.contents_area_border_02_r { width: 708px; background: url(../../images/frame_h_r.gif) repeat-y 678px bottom; float:left; }
+
+/* 枠デザインのコンテンツ */
+.contents_area_border_03 { width: 688px; margin: 0px auto; padding: 20px 20px; text-align: center; }
+.contents_area_border_03_2 { width: 620px; margin: 20px auto 0px auto; padding: 20px 20px; text-align: center; }
+
+/* 枠デザインのコンテンツ */
+.contents_area_border_03_3 { width: 620px; background-color: #f4ec99; margin: 10px auto; padding: 30px; text-align: center; }
+
+/* 詳細ページのタイトル paddingは、中のテキストに影響する */
+.sub_title { width: 648px; background-color: #220000; text-align: left; margin: 0px auto; margin: 0px 0px 0px 0px; padding: 20px 0px 18px 10px; }
+
+/* 詳細ページのコンテンツ */
+.page_contents { width: 628px; text-align: left; padding: 15px 0px 0px 15px; }
+
+.font_margin_01 {  margin-top: 5px; }
+
+
+/*--------------------------------------------------------------------
+スライド
+--------------------------------------------------------------------*/
+
+/* スライド */
+#slides { width: 748px; height: 231px; position:relative; margin: 0px auto; }
+
+/* スライドコンテンツ */
+.slides_container { width: 748px; height: 215px; margin: 0px auto; }
+
+/* 前へ、次へボタン */
+#preNex { position: absolute; top:0px; left:0px; display:none; z-index:200; border: 0px solid #fff; }
+#preNex_off { position: absolute; top:0px; left:0px; display:none; z-index:200; border: 0px solid #fff; }
+
+#slides .prev { position: absolute; top: 198px; left: 7px; text-align: left; float: right; z-index:1; }
+#slides .next { position: absolute; top: 198px; left: 900px; text-align: right; float: left; z-index:1; }
+
+/* スライド下ボタン */
+/* 1つ増減するごとに14px left をずらす必要がある */
+.pagination { width: 100px; position:absolute; top: 295px; left: 358px; z-index: 200; margin: 8px 0px 8px 1px; }
+.pagination li { margin: 0px 1px; list-style: none; float: left; }
+.pagination li a { display: block; width: 12px; float: left; overflow: hidden; }
+
+#slide_01 { width: 748px; height: 215px; }
+#slide_02 { width: 748px; height: 215px; }
+#slide_03 { width: 748px; height: 215px; }
+
+
+/*--------------------------------------------------------------------
+ゲーム概要
+--------------------------------------------------------------------*/
+
+.sumally_01 { width: 244px; height: 530px; background: url(../../images/top/sumally_01.jpg) 0px 0px no-repeat; background-size: contain; margin-right: 8px; }
+.sumally_02 { width: 244px; height: 530px; background: url(../../images/top/sumally_02.jpg) 0px 0px no-repeat; background-size: contain; margin-right: 8px; }
+.sumally_03 { width: 244px; height: 530px; background: url(../../images/top/sumally_03.jpg) 0px 0px no-repeat; background-size: contain; }
+
+/* ゲーム概要 テキスト */
+.sumally_text { width: 224px; margin: 0px auto; padding: 436px 0px 0px 0px; } 
+
+
+/*--------------------------------------------------------------------
+インフォメーション、インフォメーション右バナー
+--------------------------------------------------------------------*/
+
+/* インフォメーション 背景色等を含めた全体の定義 */
+.information_area { width: 495px; height: 199px; text-align: left; float: left; background: url(../../images/top/information_bg.jpg) 0px 0px no-repeat; background-size: contain; }
+
+/* インフォメーション タイトル */
+.information_title { width: 479px; margin-left: 8px; padding-top: 8px; }
+
+/* インフォメーション テーブル */
+.information_table { width: 436px; margin: 10px auto 0px auto; }
+.link_icon { position: relative; top: -2px; }
+
+/* インフォメーション右バナー */
+.info_right_banner_area { width: 243px; float: right; }
+.info_right_banner { width: 243px; margin-bottom: 6px; }
+.info_right_banner_b { width: 243px; }
+
+
+/*--------------------------------------------------------------------
+お問い合わせ
+--------------------------------------------------------------------*/
+
+/* 各項目 */
+.form_01 { width: 470px; }
+
+/* 詳細内容 */
+.form_02 { width: 470px; height: 300px; }
+
+/* マイページ */
+
+/* PC版 フォーム */
+.form_03 { width: 350px; height: 26px; margin-left: 0px; }
+/* SP版 フォーム */
+.form_04 { width: 350px; margin-left: 0px; margin-right: 0px; }
+
+/* PC版 秘密の質問のフォーム */
+.form_05 { width: 350px; }
+/* SP版 秘密の質問のフォーム */
+.form_06 { width: 350px; }
+
+.button_area_01 { margin-bottom: 10px; text-align: center; }
+.button_area_02 { text-align: center; }
+
+.button_01 { width: 272px; border-style: none; }
+.button_02 { width: 272px; border-style: none; }
+
+.contact_text { width: 720px; margin: 0px auto; }
+
+
+/*--------------------------------------------------------------------
+マイページ
+--------------------------------------------------------------------*/
+
+.button_03 { width: 520px; margin: 0px auto; border-style: none; outline: none; }
+
+/* 新規会員登録のSTEP */
+.step { width: 524px; margin: 10px auto 0px auto; border-style: none; outline: none; }
+
+/* コメント */
+.mypage_text { width: 530px; margin: 0px 20px; }
+
+/* PC版 ボタン上余白無し */
+.mypage_button_01 { width: 524px; margin: 0px auto; border: 0px; outline: none; }
+/* PC版 ボタン上余白有り */
+.mypage_button_02 { width: 524px; margin: 14px auto 0px auto; border: 0px; outline: none; }
+.mypage_button_02_form { width: 524px; margin: 20px auto 0px auto; border: 0px solid #000; clear: left; }
+
+.mypage_button_text_01 { width: 490px; margin: 3px auto 0px auto; border: 0px; outline: none; }
+
+/* 使用許諾約款、プライバシーポリシーのインラインフレーム */
+
+/* 外側の<div> */
+.legal_document { width: 520px; margin: 0px auto; }
+/* インラインフレーム */
+.legal_document_contents { width: 520px; height: 380px; border: 1px solid #4e180e; overflow: scroll; direction: rtl; }
+
+.confirm_contents_w { width: 340px; }
+
+}
+
+
+/* スマートフォン（iPod Touch iPhone 5s 横 w568px（実際の解像度は2倍の w1136px））用 */
+@media screen and (max-width: 568px) {
+
+/*--------------------------------------------------------------------
+基本
+--------------------------------------------------------------------*/
+
+/* 罫線 ※調整済みのため、変更しない */
+hr { height: 1px; border: none; border-bottom: 1px dotted #fff; margin: 8px 0px 9px 0px; }
+
+/* PHP 用 */
+hr.hr_php { height: 1px; border: none; border-bottom: 1px dotted #fff; margin: 8px 0px 9px 0px; }
+
+/* マイページ 用 */
+hr.mypage { height: 1px; border: none; border-bottom: 1px solid #463218; margin: 8px 0px 9px 0px; }
+hr.mypage_t { height: 1px; border: none; border-bottom: 1px solid #463218; margin: 0px 0px 9px 0px; }
+
+/* フォーム */
+input { background-color: #fff; border:solid 1px #bcbcbc; vertical-align:middle; color:#333; font-size: 8pt; letter-spacing: 1px; }
+textarea { background-color:#fff; border:solid 1px #bcbcbc; color:#333; font-size: 8pt; letter-spacing: 1px; }
+select { border: #bcbcbc 1px solid; font-size: 8pt; color: #333; }
+option { font-size: 8pt; color: #333; }
+
+/* 基本フォント */
+font { font-size: 14pt; font-weight: normal; color: #ffffee; line-height: 18pt; }
+
+/* PHP 用 */
+font.font_php { font-size: 14pt; font-weight: normal; color: #ffffee; line-height: 20pt; }
+
+/* 強調 */
+.font_01 { font-size: 10pt; font-weight: normal; line-height: 12pt; color: #ffdffe; }
+
+/* リンク、インフォメーションのページリンク */
+.font_02 { font-size: 14pt; font-weight: normal; line-height: 18pt; color: #b3a693; }
+
+/* コピーライト */
+.font_03 { font-size: 14pt; font-weight: normal; line-height: 8pt; color: #9d8f7b; }
+
+/* FAQ */
+.font_04 { font-size: 10pt; font-weight: normal; line-height: 8pt; color: #ffffee; }
+
+/* ゲーム概要 */
+.font_05 { font-size: 10pt; font-weight: normal; line-height: 13pt; color: #ffffee; }
+
+/* スマートフォン用　ゲーム説明、概要 */
+.font_06 { font-size: 14pt; font-weight: normal; line-height: 20pt; color: #ffffee; }
+
+/* スマートフォン用　ゲーム説明、概要 */
+.font_07 { font-size: 11pt; font-weight: normal; line-height: 14pt; color: #ffffee; }
+
+.font_08 { font-size: 11pt; font-weight: normal; line-height: 14pt; color: #b3a693; }
+
+/* 強調 */
+.font_09 { font-size: 10pt; font-weight: normal; line-height: 13pt; color: #fba2bc; }
+.font_10 { font-size: 14pt; font-weight: normal; line-height: 20pt; color: #de5179; }
+
+/* コンテンツ リンク */
+a.link_01 { color: #ffffee; text-decoration: none; }
+a.link_01:link { color: #ffffee; text-decoration: none; }
+a.link_01:hover { color: #fff; text-decoration: underline; }
+a.link_01:active { color: #fff; }
+
+a.link_02 { color: #b3a693; text-decoration: none; }
+a.link_02:link { color: #b3a693; text-decoration: none; }
+a.link_02:hover { color: #fff; text-decoration: underline; }
+
+/* アウトライン消去 */
+.no_outline { outline: none; }
+
+/* アンダーライン消去 */
+a.no_underline { text-decoration: none; }
+a.no_underline:hover { text-decoration: none; }
+a.no_underline:active { text-decoration: none; }
+
+/* h1タグはSEO対策で必要 */
+h1 { font-size: 14pt; font-weight: normal; color: #ffffee; line-height: 13pt; }
+
+/* PC版 ※印コメント SP版 パンくずリスト、一般フォーム */
+.margin_01 { margin-left: 9px; }
+
+/* 項目の見出し */
+.margin_03 { margin-left: 10px; }
+
+.margin_07 { margin-left: 0px; margin-top: 8px; }
+
+/* PC版 「▲まだ登録がお済みでない方はこちら」 SP版 「※パスワードを忘れた方はこちら」「▲まだ登録がお済みでない方はこちら」 */
+.margin_09 { margin-top: 2px; margin-left: 0px; }
+
+.margin_10 { margin-top: 2px; margin-left: 5px; }
+
+/* SP版 ラジオボタン */
+.margin_11 { margin-top: 4px; margin-left: 0px; }
+.margin_11_2 { margin-top: 4px; margin-left: 10px; }
+
+/* SP版 「同意する」 */
+.margin_12 { margin-top: 2px; margin-left: 5px; }
+
+/* SP版 「同意する」チェックボックス */
+.margin_15 { margin-top: 3px; margin-left: 0px; }
+
+.margin_19 { margin-left: 10px; }
+.margin_20 { margin-top: 5px; margin-left: 10px; }
+
+
+/*--------------------------------------------------------------------
+テンプレート Footer
+--------------------------------------------------------------------*/
+
+/* JavaScript OFF */
+#noscript { width: 100%; }
+#noscript_text { width: 550px; font-size: 11pt; color: #fff; text-align: left; }
+
+/* footer */
+#footer { width: 568px; height: 36px; background-color: #44382a; margin: auto; }
+#footer_link { height: 36px; padding-top: 10px; }
+.footer_link_space { width: 10px; }
+#copy_right { margin: 10px auto 10px auto; text-align: center; }
+
+/* 回り込み */
+.float_left { float: left; }
+.float_right { float: right; }
+
+/* 回り込み解除 */
+.float_01 { clear: left; }
+
+/* ページTOPに戻る margin-topはタグの構成上無効 */
+.page_top_link { margin: 0px auto; padding-bottom: 14px; text-align: center; clear: both;  }
+
+
+/*--------------------------------------------------------------------
+テンプレート
+--------------------------------------------------------------------*/
+
+/* コンテンツ ウェブサイト全体のサイズ w996px 左右ボーダー 2px 合計 w1000px */
+#contents { width: 568px; background-color: #5d492c; border-left: 0px #393026 solid; border-right: 0px #393026 solid; border-bottom: 0px #393026 solid; margin: auto; -webkit-border-bottom-left-radius: 0px; -moz-border-bottom-left-radius: 0px;; -webkit-border-bottom-right-radius: 0px; -moz-border-bottom-right-radius: 0px; }
+
+/* カテゴリタイトル */
+.contents_title { width: 548px; margin: 0px auto; }
+
+/* メインコンテンツ コンテンツの最大サイズ */
+#main_contents { width: 568px; margin: auto; }
+
+/* コンテンツエリア 高さの指定は省略不可 */
+#contents_area_main_image { width: 568px; height: 160px; margin: 0px auto 10px auto; }
+
+.contents_area { width: 548px; margin: auto auto 14px auto; border: 0px solid #fff; }
+.contents_area_02 { width: 548px; margin: auto auto 10px auto; border: 0px solid #fff; }
+
+/* テーブル */
+.table_01 { width: 500px; border-top: 1px #ffffbb solid; border-left: 1px #ffffbb solid; }
+.table_01 td { text-align: left; border-right: 1px #ffffbb solid; border-bottom: 1px #ffffbb solid;; }
+
+.table_02 { width: 500px; border-top: 0px #412702 solid; border-left: 0px #412702 solid; background-color: transparent; margin: 0px; padding: 0px; }
+.table_02_td { text-align: left; padding: 0px; border-right: 0px #412702 solid; border-bottom: 0px #412702 solid; }
+
+.table_03 { width: 506px; }
+.table_03_history { width: 506px; margin-top: 14px; }
+.table_03 td { padding-left: 0px; padding-bottom: 2px; vertical-align: top; }
+
+/* 各カラム */
+
+/* TOP メインイメージ */
+#column_1_main_image { width: 568px; margin: 0px; clear:left; }
+#main_image { width: 568px; margin: 0px; }
+
+/* TOP */
+.column_1 { width: 548px; text-align: center; margin: auto; clear:left; }
+
+/* HOMEに戻る */
+.column_1_back_home { width: 548px; text-align: center; margin: auto; padding-bottom: 10px; clear:left; }
+
+/* その他コンテンツ */
+.column_1_2 { width: 548px; background-color: transparent; border: 0px solid #220000; margin: 0px auto; padding: 0px; clear:left; }
+
+/* お問い合わせ */
+.column_2 { width: 250px; float: left; border: 0px solid #fff; }
+.column_2_r { width: 250px; float: right; border: 0px solid #fff; }
+
+/* ゲーム概要 */
+.column_3 { width: 120px; }
+.column_3_r { width: 120px; }
+
+/* 枠デザインのコンテンツ */
+.contents_area_border { width: 548px; background-color: #3a2911; border: 1px solid #ede678; border-radius: 10px; box-shadow: 0px 2px 2px rgba(0,0,0,0.4); margin: 0px auto; padding: 20px; text-align: center; }
+.contents_area_border_faq { width: 548px; background-color: #3a2911; border: 1px solid #ede678; border-radius: 10px; box-shadow: 0px 2px 2px rgba(0,0,0,0.4); margin: 0px auto; padding: 36px 20px; text-align: center; }
+
+/* 詳細ページのタイトル paddingは、中のテキストに影響する */
+.sub_title { width: 505px; background-color: #220000; text-align: left; margin: 0px auto; margin: 0px 0px 0px 0px; padding: 20px 0px 18px 10px; }
+
+/* 詳細ページのコンテンツ */
+.page_contents { width: 490px; text-align: left; padding: 15px 0px 0px 15px; }
+
+/* スマートフォンコンテンツ 縦横共通 */
+.sp_contents_01 { background-color: #3b2304; text-align:left; margin: 0px auto; padding: 10px; }
+.sp_contents_02 { background-color: #3b2304; text-align: center; margin: 0px auto; padding: 10px; }
+.sp_contents_03 { background-color: #3b2304; text-align: left; margin: 0px auto; padding: 10px; }
+
+/* HOME に戻る スマートフォン（縦）共通 */
+.sp_contents_04 { background-color: #300e0f; text-align: center; margin: 0px auto; padding: 10px; }
+
+
+/*--------------------------------------------------------------------
+スライド
+--------------------------------------------------------------------*/
+
+/* スライド */
+#slides { width: 548px; height: 1014px; position:relative; margin: 0px auto; clear: left; }
+
+/* スライドコンテンツ */
+.slides_container { width: 548px; height: 984px; margin: 0px auto; }
+
+/* 前へ、次へボタン */
+#preNex { position: absolute; top:0px; left:0px; display:none; z-index: 200; border: 0px solid #fff; }
+#preNex_off { position: absolute; top:0px; left:0px; display:none; z-index: 200; border: 0px solid #fff; }
+
+#slides .prev { position: absolute; top: 19px; left: 7px; text-align: left; float: right; z-index:1; }
+#slides .next { position: absolute; top: 19px; left: 300px; text-align: right; float: left; z-index:1; }
+
+/* スライド下ボタン */
+.pagination { width: 100px; position:absolute; top: 984px; left: 222px; z-index: 200; margin: 8px 0px 8px 1px; }
+.pagination li { width: 28px; margin: 0px 2px; list-style: none; float: left; }
+.pagination li a { display: block; width: 28px; float: left; overflow: hidden; }
+
+.pagination_01 { background-color: #ffff99; border: 0px #372006 solid; padding: 8px 7px 7px 7px; }
+.pagination_02 { background-color: #372006; border: 0px #ffff99 solid; padding: 8px 7px 7px 7px; }
+
+/* 縦横共通 */
+.pagination_font_01 { color: #372006; position: relative; top: 1px; }
+.pagination_font_02 { color: #ffff99; position: relative; top: 1px; }
+
+#slide_01 { width: 548px; height: 994px; }
+#slide_02 { width: 548px; height: 984px; }
+#slide_03 { width: 548px; height: 984px; }
+
+
+/*--------------------------------------------------------------------
+インフォメーション、インフォメーション右バナー
+--------------------------------------------------------------------*/
+
+/* インフォメーション 背景色等を含めた全体の定義 height を 0% にするとコンテンツに応じて高さが変わる */
+.information_area { width: 548px; height: 0%; text-align: left; background-color: #3b2304; background-image: none; margin-bottom: 10px; padding-bottom: 10px; clear: left; }
+
+/* インフォメーション タイトル */
+.information_title { width: 548px; margin-left: 0px; padding-top: 0px; }
+.information_title img { width: 548px; }
+
+/* インフォメーション テーブル */
+.information_table { width: 548px; margin: 10px auto 0px auto; }
+.link_icon { position: relative; top: -2px; }
+
+/* インフォメーション右バナー */
+.info_right_banner_area { width: 548px; text-align: center; margin: 0px auto 0px auto; float: left; }
+.info_right_banner { width: 548px; margin-bottom: 7px; }
+.info_right_banner_b { width: 548px; }
+
+#info_right_banner_01 { width: 548px; }
+#info_right_banner_02 { width: 548px; }
+#info_right_banner_03 { width: 548px; }
+
+
+/*--------------------------------------------------------------------
+お問い合わせ
+--------------------------------------------------------------------*/
+
+/* 各項目 */
+.form_01 { width: 400px; }
+
+/* 詳細内容 */
+.form_02 { width: 400px; height: 260px; }
+
+/* マイページ */
+.form_03 { width: 506px; margin: 0px; }
+.form_04 { width: 506px; margin: 0px; }
+
+/* PC版 秘密の質問のフォーム */
+.form_05 { width: 506px; margin-top: 5px; }
+/* SP版 秘密の質問のフォーム */
+.form_06 { width: 506px; }
+
+.button_area_01 { margin-bottom: 0px 0px 10px 0px; text-align: center; }
+.button_area_02 { text-align: center; }
+
+.button_01 { width: 400px; border-style: none; }
+.button_02 { width: 400px; border-style: none; }
+
+.contact_text { width: 400px; margin: 0px auto; }
+
+
+/*--------------------------------------------------------------------
+マイページ
+--------------------------------------------------------------------*/
+
+.button_03 { width: 500px; margin: 0px auto; border-style: none; outline: none; }
+
+/* ログアウトボタン */
+.logout_button { width: 506px; margin-top: 10px; }
+
+/* 新規会員登録のSTEP */
+.step { width: 400px; margin: 0px auto 10px auto; border-style: none; outline: none; }
+
+/* コメント */
+.mypage_text { width: 506px; margin: 0px 20px; }
+
+/* PC版 ボタン上余白無し */
+.mypage_button_01 { width: 506px; margin: 0px; border: 0px; outline: none; }
+/* PC版 ボタン上余白有り */
+.mypage_button_02 { width: 506px; margin-top: 20px; border: 0px; outline: none; }
+
+/* SP版 「退会手続きはこちら」 */
+.mypage_button_text_01 { width: 486px; margin: 3px auto 0px auto; border: 0px; outline: none; }
+
+/* 使用許諾約款、プライバシーポリシーのインラインフレーム */
+
+/* 外側の<div> */
+.legal_document { width: 504px; margin: 0px auto; }
+/* インラインフレーム */
+.legal_document_contents { width: 504px; height: 380px; border: 1px solid #4e180e; }
+
+}
+
+
+/* スマートフォン（iPod Touch iPhone 5s 縦 w320px（実際の解像度は2倍の w640px））用 */
+@media screen and (max-width: 320px) {
+
+/*--------------------------------------------------------------------
+基本
+--------------------------------------------------------------------*/
+
+/* 罫線 ※調整済みのため、変更しない */
+hr { height: 1px; border: none; border-bottom: 1px dotted #fff; margin: 8px 0px 9px 0px; }
+
+/* PHP 用 */
+hr.hr_php { height: 1px; border: none; border-bottom: 1px dotted #fff; margin: 8px 0px 9px 0px; }
+
+/* マイページ 用 */
+hr.mypage { height: 1px; border: none; border-bottom: 1px solid #463218; margin: 8px 0px 9px 0px; }
+hr.mypage_t { height: 1px; border: none; border-bottom: 1px solid #463218; margin: 8px 0px 9px 0px; }
+
+/* フォーム */
+input { background-color: #fff; border:solid 1px #bcbcbc; vertical-align:middle; color:#333; font-size: 8pt; letter-spacing: 1px; }
+textarea { background-color: #fff; border:solid 1px #bcbcbc; color:#333; font-size: 8pt; letter-spacing: 1px; }
+select { border:solid 1px #bcbcbc; font-size: 8pt; color: #333; }
+option { height: 26px; font-size: 8pt; color: #333; }
+
+/* 基本フォント */
+font { font-size: 12pt; font-weight: normal; color: #ffffee; line-height: 14pt; }
+
+/* PHP 用 */
+font.font_php { font-size: 11pt; font-weight: normal; color: #ffffee; line-height: 14pt; }
+
+/* 強調 */
+.font_01 { font-size: 11pt; font-weight: normal; line-height: 12pt; color: #ffdffe; }
+
+/* リンク、インフォメーションのページリンク */
+.font_02 { font-size: 11pt; font-weight: normal; line-height: 13pt; color: #b3a693; }
+
+/* コピーライト */
+.font_03 { font-size: 11pt; font-weight: normal; line-height: 8pt; color: #9d8f7b; }
+
+/* FAQ */
+.font_04 { font-size: 10pt; font-weight: normal; line-height: 8pt; color: #ffffee; }
+
+/* ゲーム概要 */
+.font_05 { font-size: 10pt; font-weight: normal; line-height: 13pt; color: #ffffee; }
+
+/* スマートフォン用　ゲーム説明、概要 */
+.font_06 { font-size: 11pt; font-weight: normal; line-height: 14pt; color: #ffffee; }
+
+/* スマートフォン用　ゲーム説明、概要 補足 */
+.font_07 { font-size: 8pt; font-weight: normal; line-height: 10pt; color: #ffffee; }
+
+/* スマートフォン用　補足 */
+.font_08 { font-size: 8pt; font-weight: normal; line-height: 10pt; color: #b3a693; }
+
+/* 強調 */
+.font_09 { font-size: 10pt; font-weight: normal; line-height: 13pt; color: #fba2bc; }
+.font_10 { font-size: 11pt; font-weight: normal; line-height: 14pt; color: #de5179; }
+
+/* アウトライン消去 */
+.no_outline { outline: none; }
+
+/* h1タグはSEO対策で必要 */
+h1 { font-size: 11pt; font-weight: normal; color: #ffffee; line-height: 13pt; }
+
+.margin_01 { margin-left: 0px; }
+.margin_03 { margin-top: 3px; }
+
+.margin_07 { margin-left: 0px; margin-top: 8px; }
+
+/* PC版 「▲まだ登録がお済みでない方はこちら」 SP版 「※パスワードを忘れた方はこちら」「▲まだ登録がお済みでない方はこちら」 */
+.margin_09 { margin-top: 0px; margin-left: 0px; }
+
+/* チェックボックス テキスト */
+.margin_10 { margin-top: 0px; margin-left: 5px; }
+
+/* SP版 ラジオボタン */
+.margin_11 { margin-top: 0px; margin-left: 0px; }
+.margin_11_2 { margin-top: 0px; margin-left: 10px; }
+
+/* SP版 「同意する」 */
+.margin_12 { margin-top: 4px; margin-left: 4px; }
+
+.margin_14 { margin-top: 3px; margin-left: 0px; }
+
+/* SP版 「同意する」チェックボックス */
+.margin_15 { margin-top: 2px; margin-left: 0px; }
+
+.margin_17 { margin-top: 0px; margin-left: 5px; }
+
+/* ログアウトボタン */
+.margin_18 { margin-top: 5px; margin-bottom: 0px; }
+
+/* 見出し */
+.margin_19 { margin-left: 0px; }
+
+.margin_20 { margin-left: 0px; }
+
+.margin_0px { margin: 0px; }
+
+
+/*--------------------------------------------------------------------
+テンプレート Footer
+--------------------------------------------------------------------*/
+
+/* JavaScript OFF */
+#noscript { width: 100%; }
+#noscript_text { width: 320px; font-size: 11pt; color: #fff; text-align: left; }
+
+/* footer */
+#footer { width: 320px; height: 0px; background-color: #44382a; margin: auto; }
+#footer_link { height: 0px; padding-top: 10px; }
+.footer_link_space { width: 10px; }
+#copy_right { margin: 10px auto 10px auto; text-align: center; }
+
+/* 回り込み */
+.float_left { float: left; }
+.float_right { float: right; }
+
+/* 回り込み解除 */
+.float_01 { clear: left; }
+
+/* ページTOPに戻る スマートフォンでは、上下の margin は無効 */
+.page_top_link { margin: 0px auto; padding-bottom: 10px; text-align: center; clear: both;  }
+
+
+/*--------------------------------------------------------------------
+テンプレート
+--------------------------------------------------------------------*/
+
+/* コンテンツ ウェブサイト全体のサイズ w996px 左右ボーダー 2px 合計 w1000px */
+#contents { width: 320px; background-color: #5d492c; border-left: 0px #393026 solid; border-right: 0px #393026 solid; border-bottom: 0px #393026 solid; margin: auto; -webkit-border-bottom-left-radius: 0px; -moz-border-bottom-left-radius: 0px;; -webkit-border-bottom-right-radius: 0px; -moz-border-bottom-right-radius: 0px; }
+
+/* カテゴリタイトル */
+.contents_title { width: 300px; margin: 0px auto; }
+
+/* メインコンテンツ コンテンツの最大サイズ */
+#main_contents { width: 320px; margin:auto; }
+
+/* コンテンツエリア 高さの指定は省略不可 */
+#contents_area_main_image { width: 320px; height: 90px; margin: auto auto 10px auto; }
+
+.contents_area { width: 320px; margin: auto auto 10px auto; border: 0px solid #fff; }
+.contents_area_02 { width: 320px; margin: auto auto 10px auto; border: 0px solid #fff; }
+
+/* テーブル */
+.table_01 { width: 276px; border-top: 1px #3a2911 solid; border-left: 1px #3a2911 solid; }
+.table_01 td { text-align: left; padding: 0px; border-right: 1px #3a2911 solid; border-bottom: 1px #3a2911 solid;; }
+
+.table_02 { width: 276px; border: 0px; background-color: transparent; margin: 0px auto; }
+.table_02_td { text-align: left; padding: 0px; border-right: 2px #412702 solid; border-bottom: 2px #412702 solid; }
+
+.table_03 { width: 276px; }
+.table_03_history { width: 276px; margin-top: 4px; }
+.table_03 td { vertical-align: top; }
+
+/* 各カラム */
+
+/* TOP メインイメージ */
+#column_1_main_image { width: 320px; margin: auto; clear: left; }
+#main_image { width: 320px; }
+
+/* TOP */
+.column_1 { width: 300px; text-align: center; margin: auto; clear: left; }
+
+/* HOMEに戻る */
+.column_1_back_home { width: 300px; text-align: center; margin: auto; padding-bottom: 10px; clear:left; }
+
+/* その他コンテンツ */
+.column_1_2 { width: 320px; background-color: transparent; margin: 0px auto; padding: 0px; clear:left; }
+
+/* お問い合わせ */
+.column_2 { width: 160px; float: left; border: 0px solid #fff; }
+.column_2_r { width: 160px; float: right; border: 0px solid #fff; }
+
+/* ゲーム概要 */
+.column_3 { width: 320px; }
+.column_3_r { width: 320px; }
+
+/* 枠デザインのコンテンツ */
+.contents_area_border { width: 298px; background-color: #3a2911; border: 1px solid #ede678; border-radius: 10px; box-shadow: 0px 2px 2px rgba(0,0,0,0.4); margin: 0px auto; padding: 10px 10px; text-align: center; }
+.contents_area_border_faq { width: 298px; background-color: #3a2911; border: 1px solid #ede678; border-radius: 10px; box-shadow: 0px 2px 2px rgba(0,0,0,0.4); margin: 0px auto; padding: 34px 10px; text-align: center; }
+
+.frame_t_l { width: 10px; height: 10px; }
+.frame_t_r { width: 10px; height: 10px; }
+.frame_b_l { width: 10px; height: 10px; }
+.frame_b_r { width: 10px; height: 10px; }
+
+/* 詳細ページのタイトル paddingは、中のテキストに影響する */
+.sub_title { width: 275px; background-color: #220000; text-align: left; margin: 0px auto; margin: 0px 0px 0px 0px; padding: 20px 0px 18px 10px; }
+
+/* 詳細ページのコンテンツ */
+.page_contents { width: 260px; text-align: left; padding: 15px 0px 0px 15px; }
+
+.font_margin_01 {  margin-top: 1px; }
+
+
+/*--------------------------------------------------------------------
+スライド
+--------------------------------------------------------------------*/
+
+/* スライド pagenation の下の余白も含めて高さを指定する */
+#slides { width: 300px; height: 577px; position:relative; margin: 0px auto; clear: left; }
+
+/* スライドコンテンツ */
+.slides_container { width: 300px; height: 543px; margin: 0px auto; }
+
+/* 前へ、次へボタン */
+#preNex { position: absolute; top:0px; left:0px; display:none; z-index: 200; border: 0px solid #fff; }
+#preNex_off { position: absolute; top:0px; left:0px; display:none; z-index: 200; border: 0px solid #fff; }
+
+#slides .prev { position: absolute; top: 19px; left: 7px; text-align: left; float: right; z-index:1; }
+#slides .next { position: absolute; top: 19px; left: 300px; text-align: right; float: left; z-index:1; }
+
+/* スライド下ボタン */
+/* 1つ増減するごとに14px left をずらす必要がある */
+.pagination { width: 100px; position:absolute; top: 543px; left: 103px; z-index: 200; margin: 8px 0px 8px 1px; }
+.pagination li { margin: 0px 2px; list-style: none; float: left; }
+.pagination li a { display: block; width: 28px; float: left; overflow: hidden; }
+
+/* 縦横共通 */
+.pagination_01 { background-color: #ffff99; border: 0px #372006 solid; padding: 7px 8px 8px 8px; }
+.pagination_02 { background-color: #372006; border: 0px #ffff99 solid; padding: 7px 8px 8px 8px; }
+
+.pagination_font_01 { color: #372006; position: relative; top: -1px; }
+.pagination_font_02 { color: #ffff99; position: relative; top: -1px; }
+
+#slide_01 { width: 300px; height: 543px; }
+#slide_02 { width: 300px; height: 543px; }
+#slide_03 { width: 300px; height: 543px; }
+
+
+/*--------------------------------------------------------------------
+ゲーム概要
+--------------------------------------------------------------------*/
+
+/* .sumally_01 { width: 300px; height: 120px; background: url(..images/top/sumally_01.jpg) 0px 0px no-repeat; margin: 0px auto 8px auto; float: left; }
+.sumally_02 { width: 300px; height: 120px; background: url(..images/top/sumally_02.jpg) 0px 0px no-repeat; margin: 0px auto 8px auto; float: left; }
+.sumally_03 { width: 300px; height: 120px; background: url(..images/top/sumally_03.jpg) 0px 0px no-repeat; margin: 0px auto 8px auto; float: left; } */
+
+/* ゲーム概要 テキスト */
+.sumally_text { width: 300px; margin: 0px auto; padding: 60px 0px 0px 0px; } 
+
+
+/*--------------------------------------------------------------------
+インフォメーション、インフォメーション右バナー
+--------------------------------------------------------------------*/
+
+/* インフォメーション 背景色等を含めた全体の定義 height を 0% にするとコンテンツに応じて高さが */
+.information_area { width: 300px; height: 0%; text-align: left; margin-bottom: 10px; padding-bottom: 10px; float: left; background-color: #3b2304; background-image: none; }
+
+/* インフォメーション タイトル */
+.information_title { width: 300px; margin-left: 0px; padding-top: 0px; }
+.information_title img { width: 300px; }
+
+/* インフォメーション テーブル */
+.information_table { width: 280px; margin: 12px auto 0px auto; }
+.link_icon { position: relative; top: -2px; }
+
+/* インフォメーション右バナー */
+.info_right_banner_area { width: 300px; margin: 0px auto 0px auto; float: left; }
+.info_right_banner { width: 300px; margin-bottom: 7px; }
+.info_right_banner_b { width: 300px; }
+
+#info_right_banner_01 { width: 300px; }
+#info_right_banner_02 { width: 300px; }
+#info_right_banner_03 { width: 300px; }
+
+
+/*--------------------------------------------------------------------
+お問い合わせ
+--------------------------------------------------------------------*/
+
+/* 各項目 */
+.form_01 { width: 255px; }
+
+/* 詳細内容 */
+.form_02 { width: 255px; height: 180px; }
+
+/* マイページ */
+.form_03 { width: 274px; height: 20px; margin: 5px 0px 0px 0px; }
+.form_04 { width: 274px; margin: 0px; margin: 3px 0px 0px 0px; }
+
+/* PC版 秘密の質問のフォーム */
+.form_05 { width: 274px; }
+/* SP版 秘密の質問のフォーム */
+.form_06 { width: 274px; }
+
+.form_margin_01 {  margin-top: 5px; }
+
+.button_area_01 { margin-bottom: 10px; text-align: center; }
+.button_area_02 { text-align: center; }
+
+.button_01 { width: 230px; border-style: none; }
+.button_02 { width: 230px; border-style: none; }
+
+.contact_text { width: 260px; margin: 0px auto; }
+
+
+/*--------------------------------------------------------------------
+マイページ
+--------------------------------------------------------------------*/
+
+.button_03 { width: 250px; margin: 0px auto; border-style: none; outline: none; }
+
+.step { width: 250px; margin: 0px auto 10px auto; border-style: none; outline: none; }
+
+.mypage_text { width: 260px; margin: 0px auto; }
+
+/* PC版 ボタン上余白無し */
+.mypage_button_01 { width: 276px; margin: 0px auto; border: 0px; outline: none; }
+/* PC版 ボタン上余白有り */
+.mypage_button_02 { width: 276px; margin: 10px auto 0px auto; border: 0px; outline: none; }
+
+/* SP版 「退会手続きはこちら」 */
+.mypage_button_text_01 { width: 250px; margin: 3px auto 0px auto; border: 0px; outline: none; }
+
+.logout_button { width: 276px; margin-top: 10px; }
+
+.legal_document { width: 276px; margin: 0px auto; }
+.legal_document_contents { width: 276px; height: 300px; border: 1px solid #4e180e; }
+
+}
+
+/* ------------------------------------------------------------------------------------------------ */

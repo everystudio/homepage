@@ -1,0 +1,17 @@
+#! /bin/sh
+
+OPT=""
+OPTNAME="deploy"
+
+while getopts d ITEM
+do
+  case $ITEM in
+    "d" ) OPT="-n"; OPTNAME="dry_run";;
+  esac
+done
+
+
+rsync -avh ${OPT} -e "ssh -i /Users/mainitiamai/.ssh/mainitiamai.pem" --exclude='.DS_Store' --exclude='*.meta'  --delete ./resources/ ec2-user@54.65.37.185:/home/ec2-user/resources
+
+
+

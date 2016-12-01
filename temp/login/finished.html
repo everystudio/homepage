@@ -1,0 +1,133 @@
+{include file="./templates/header.tpl" title="パズルキングダム 公式サイト｜マイページ/パスワード再設定/パスワード再設定完了" keyword="パズルキングダム,パズル,アプリ,ゲーム,モンスター" desciption="爽快パズルで白熱バトル!! パズルキングダム」は自由にドロップを動かして遊ぶ爽快3マッチパズルゲームです。コンボを決めて敵に大ダメージを与えよう!! キミだけのチームを作ろう!!登場キャラクターは総勢200体!!ダンジョンやガチャで新たなキャラをゲットしよう!!進化や合成を駆使してキミだけの最強チームを作ろう!! １分で遊べるミニゲームを実装!!短時間で遊べるミニゲームを楽しもう!!ミニゲーム第一弾は《爽快シューティング》パズルの後はシューティングで気分爽快!!" no_script = "【注意！！】このページでは、JavaScriptを使用していますので、JavaScriptを無効にしている場合、サイトが正常に機能しない可能性があります。<br />ブラウザの設定でJavaScriptを有効にしてください。<br />※設定方法につきましては、各ブラウザで異なるため、お手数ですが個別にご対応ください。" header_id = 0 contents_title = "マイページ" page_title = "パスワード再設定" page_title_url = "title_08.jpg" }
+
+<!-- パンくずリスト ここから //-->
+								<div align = "left" class = "margin_18 float_left"><font class = "font_07"><a href="{$link.mypage}" class = "link_04">マイページTOP</a> ＞ パスワード再設定</font></div>
+<!-- パンくずリスト ここまで //-->
+
+<!-- 新規会員登録 フォーム ここから //-->
+									<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_02">
+										<tr>
+											<td class = "table_02_td">
+												<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+													<tr>
+														<td>
+															<div class = "margin_03"><font class = "font_07">パスワードの再設定を行いました。<br /><br />以下ボタンを押して、ログインフォームから再度ログインしてください。</font></div>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+
+<!-- ログインフォーム ボタン ここから //-->
+								<a href="{$link.official_top}"><img src = "{$img}/mypage/button_login_form.jpg" title = "ログインフォーム" alt = "ログインフォーム" name="button_login_form" id="button_login_form" onmouseover="MM_swapImage('button_login_form','','{$img}/mypage/button_login_form_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_02" /></a>
+<!-- ログインフォーム ボタン ここまで //-->
+
+<!-- 新規会員登録 フォーム ここまで //-->
+
+							</div>
+
+						</div></div>
+
+<!-- 罫線 ここから //-->
+						<div class = "contents_area_border_01_b visible-lg visible-md visible-sm"><div class = "float_left"><img src = "{$img}/frame_b_l.gif" title = "frame_b_l" alt = "frame_b_l" /></div>&nbsp;<div class = "float_right"><img src = "{$img}/frame_b_r.gif" title = "frame_b_r" alt = "frame_b_r" /></div></div>
+<!-- 罫線 ここまで //-->
+
+<!-- HOMEに戻る ここから //-->
+						<div align = "right" class = "margin_01 visible-lg visible-md visible-sm"><font class = 'font_02'><a href = "/" class = 'link_02'>HOMEに戻る</a></font></div>
+<!-- HOMEに戻る ここまで //-->
+
+<!-- PC ここまで //-->
+
+<!-- スマートフォン ここから //-->
+						<div class = "contents_area_border visible-xs">
+
+<!-- タイトル ここから //-->
+								<img src = "{$img}/sp/mypage/title_08.jpg" width = "100%" title = "パスワード再設定" alt = "パスワード再設定" />
+<!-- タイトル ここまで //-->
+
+<!-- パンくずリスト ここから //-->
+							<div align = "left" class = "margin_01"><font class = "font_08"><a href = "{$link.mypage}" class = "link_02">マイページTOP</a> ＞ パスワード再設定</font></div>
+<!-- パンくずリスト ここまで //-->
+
+<!-- 表示メッセージ ここから //-->
+							<form name = "member_regist_sp" action = "{$link.submit}" method = "post">
+								<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_02">
+									<tr>
+										<td class = "table_02_td">
+											<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+												<tr>
+													<td>
+														<hr class = "mypage" />
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<div align = "left"><font class = "font_06">パスワードの再設定を行いました。<br /><br />以下ボタンを押して、ログインフォームから再度ログインしてください。</font></div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<hr class = "mypage" />
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+
+								<input type = "hidden" name = "is_sp" value = "_sp">
+							</form>
+<!-- 表示メッセージ ここまで //-->
+
+<!-- ログインフォーム ボタン ここから //-->
+							<a href="{$link.login_form}"><input type = "image" value = "submit" src = "{$img}/sp/mypage/button_login_form.jpg" title = "ログインフォーム" alt = "ログインフォーム" name="button_login_form_sp" id="button_login_form_sp" onmouseover="MM_swapImage('button_login_form_sp','','{$img}/sp/mypage/button_login_form_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" /></a>
+<!-- ログインフォーム ボタン ここまで //-->
+
+<!-- スマートフォン ここまで //-->
+							</div>
+
+					</div>
+
+					<div class = "float_01"></div>
+
+				</div>
+
+<!-- コンテンツ ここから //-->
+				<!--<div class = "contents_area_02 visible-lg visible-md visible-sm">
+
+					<div class = "button_03">
+
+						<a href = "/"><img src = "{$img}/back_top.jpg" width = "100%" alt="トップページに戻る" title = "トップページに戻る" name="contact_button_01" id="contact_button_01" onmouseover="MM_swapImage('contact_button_01','','{$img}/back_top_over.jpg',1)" onmouseout="MM_swapImgRestore()" onmouseup = "this.src = '{$img}/back_top.jpg'" /></a>
+
+					</div>
+
+				</div>//-->
+<!-- コンテンツ ここまで //-->
+
+			</div>
+<!-- メインコンテンツ ここまで //-->
+
+<!-- ページTOPに戻る ここから //-->
+			<script type = "text/javascript">page_top();</script>
+<!-- ページTOPに戻る ここまで //-->
+
+<!-- HOMEに戻る ここから //-->
+			<div class = "column_1_back_home visible-xs">
+
+				<div class = "sp_contents_04"><a href="/">
+					<font>HOMEに戻る</font>
+				</a></div>
+
+			</div>
+<!-- HOMEに戻る ここまで //-->
+
+		</div>
+
+<!-- footer ここから //-->
+		<script type = "text/javascript">Footer();</script>
+<!-- footer ここまで //-->
+
+	</body>
+
+</html>

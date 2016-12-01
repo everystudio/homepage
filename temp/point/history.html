@@ -1,0 +1,277 @@
+{include file="./templates/header.tpl" title="パズルキングダム 公式サイト｜マイページ/ポイント履歴" keyword="パズルキングダム,パズル,アプリ,ゲーム,モンスター" desciption="爽快パズルで白熱バトル!! パズルキングダム」は自由にドロップを動かして遊ぶ爽快3マッチパズルゲームです。コンボを決めて敵に大ダメージを与えよう!! キミだけのチームを作ろう!!登場キャラクターは総勢200体!!ダンジョンやガチャで新たなキャラをゲットしよう!!進化や合成を駆使してキミだけの最強チームを作ろう!! １分で遊べるミニゲームを実装!!短時間で遊べるミニゲームを楽しもう!!ミニゲーム第一弾は《爽快シューティング》パズルの後はシューティングで気分爽快!!" no_script = "【注意！！】このページでは、JavaScriptを使用していますので、JavaScriptを無効にしている場合、サイトが正常に機能しない可能性があります。<br />ブラウザの設定でJavaScriptを有効にしてください。<br />※設定方法につきましては、各ブラウザで異なるため、お手数ですが個別にご対応ください。" header_id = 0 contents_title = "マイページ" }
+
+<!-- タイトル ここから //-->
+								<img src = "{$img}/mypage/title_03.jpg" width = "100%" title = "ポイント利用履歴" alt = "ポイント利用履歴" />
+<!-- タイトル ここまで //-->
+
+<!-- パンくずリスト ここから //-->
+								<div align = "left" class = "margin_02 float_left"><font class = "font_12"><a href="{$link.mypage}" class = "link_04">マイページTOP</a> ＞ ポイント利用履歴</font></div><div align = "left" class = "margin_17 float_right"><a href = "{$link.logout}"><img src = "{$img}/mypage/button_logout.jpg" name="logout_button" id="logout_button" onmouseover="MM_swapImage('logout_button','','{$img}/mypage/button_logout_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "logout_button" ></a></div>
+<!-- パンくずリスト ここまで //-->
+
+<!-- 説明文と項目名 ここから //-->
+									<div class = "margin_05 float_01" align = "left"><font class = "font_07"><br />所持ポイントと利用履歴は、以下のとおりです。</font><font class = "font_06"><br /><br />●所持ポイント</font></div>
+<!-- 説明文と項目名 ここまで //-->
+
+<!-- 所持ポイント ここから //-->
+									<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_02_title">
+										<tr>
+											<td class = "table_02_td">
+												{if 0<$point_count}
+												<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+                                                {foreach from=$spdungeonPoint|smarty:nodefaults item=data name=loop}
+                                                    <tr>
+														<td width = "676">
+															<div class = "float_left"><font class = "font_07">{$data.point_name}：現在 {$data.point}ポイント保有しています。</font></div>
+														</td>
+													</tr>
+                                                    {if !$smarty.foreach.loop.last}
+                                                        <tr>
+                                                            <td>
+                                                                <hr class = "mypage" />
+                                                            </td>
+                                                        </tr>
+                                                    {/if}
+                                                {/foreach}
+												</table>
+                                                {else}
+                                                <font class = "font_07">ポイントはありません</font>
+                                                {/if}
+											</td>
+										</tr>
+									</table>
+<!-- 所持ポイント ここまで //-->
+
+<!-- 項目名 ここから //-->
+									<div class = "margin_05 float_01" align = "left"><hr class = "mypage_history" /><font class = "font_06">●利用履歴</font></div>
+<!-- 項目名 ここまで //-->
+
+									<form name = "point_history" action = "{$link.submit}" method = "post">
+<!-- 利用履歴 ここから //-->
+										<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_02_title">
+											<tr>
+												<td class = "table_02_td">
+{if 0 < $log_count}
+<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+    <font class = "font_07">{foreach from=$logUserApply|smarty:nodefaults item=data name=loop}
+		{include file='./templates/point_data01.tpl' tpl_log=$data tpl_width=676 tpl_font_style=font_07 }
+        {if !$smarty.foreach.loop.last}
+            <tr>
+                <td>
+                    <hr class = "mypage" />
+                </td>
+            </tr>
+        {/if}
+    {/foreach}</font>
+</table>
+{else}
+<font class = "font_07">ポイントを利用したデータありません</font>
+{/if}
+												</td>
+											</tr>
+										</table>
+<!-- 利用履歴 ここまで //-->
+
+<!-- 情報を更新する ボタン ここから //-->	
+										
+										<div class = "mypage_button_01">
+											<a href="{$link.reload}">
+											<img src = "{$img}/mypage/button_modify.jpg" title = "情報を更新する" alt = "情報を更新する" name="button_modify" id="button_modify" onClick = "this.form.submit()"; onmouseover="MM_swapImage('button_modify','','{$img}/mypage/button_modify_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_02" />
+											</a>
+										</div>
+<!-- 情報を更新する ボタン ここまで //-->
+									</form>
+
+<!-- マイページTOP ボタン ここから //-->
+									<div class = "mypage_button_01"><a href="{$link.mypage}"><img src = "{$img}/mypage/button_mypage_top.jpg" title = "マイページTOP" alt = "マイページTOP" name="button_mypage_top" id="button_mypage_top" onmouseover="MM_swapImage('button_mypage_top','','{$img}/mypage/button_mypage_top_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_02" /></a></div>
+<!-- マイページTOP ボタン ここまで //-->
+
+								</div>
+							</div></div>
+
+<!-- 罫線 ここから //-->
+							<div class = "contents_area_border_01_b visible-lg visible-md visible-sm"><div class = "float_left"><img src = "{$img}/frame_b_l.gif" title = "frame_b_l" alt = "frame_b_l" /></div>&nbsp;<div class = "float_right"><img src = "{$img}/frame_b_r.gif" title = "frame_b_r" alt = "frame_b_r" /></div></div>
+<!-- 罫線 ここまで //-->
+
+<!-- 公式サイトTOP ここから //-->
+						<script type = "text/javascript">official_top();</script>
+<!-- 公式サイトTOP ここまで //-->
+
+<!-- PC ここまで //-->
+
+<!-- スマートフォン ここから //-->
+						<div class = "contents_area_border visible-xs">
+
+<!-- タイトル ここから //-->
+							<img src = "{$img}/sp/mypage/title_03.jpg" width = "100%" title = "ポイント利用履歴" alt = "ポイント利用履歴" />
+<!-- タイトル ここまで //-->
+
+<!-- パンくずリスト ここから //-->
+							<div align = "left" class = "margin_07"><div class = "float_left"><font class = "font_08"><a href = "{$link.mypage}" class = "link_02">マイページTOP</a> > ポイント利用履歴</font></div></div>
+<!-- パンくずリスト ここまで //-->
+
+<!-- 所持ポイント ここから //-->
+							<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03_history">
+								<tr>
+									<td>
+										<hr class = "mypage" />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div align = "left"><font class = "font_06">所持ポイントと利用履歴は、以下のとおりです。</font></div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<hr class = "mypage" />
+									</td>
+								</tr>
+								<tr>
+									<td align = "left">
+										<div class = "margin_01_2"><font class = "font_06">●所持ポイント</font></div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<hr class = "mypage" />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div align = "left"><font class = "font_06">
+											{if 0<$point_count}
+												<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+                                                {foreach from=$spdungeonPoint|smarty:nodefaults item=data name=loop}
+                                                    <tr>
+														<td width = "676">
+															<div class = "float_left"><font class = "font_06">{$data.point_name}：現在 {$data.point}ポイント保有しています。</font></div>
+														</td>
+													</tr>
+                                                    {if !$smarty.foreach.loop.last}
+                                                        <tr>
+                                                            <td>
+                                                                <hr class = "mypage" />
+                                                            </td>
+                                                        </tr>
+                                                    {/if}
+                                                {/foreach}
+												</table>
+                                                {else}
+                                                <font class = "font_06">ポイントはありません</font>
+                                                {/if}</font></div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<hr class = "mypage" />
+									</td>
+								</tr>
+							</table>
+<!-- 所持ポイント ここまで //-->
+
+<!-- ポイント利用履歴 ここから //-->
+							<form name = "point_history_sp" action = "{$link.submit}" method = "post">
+							</form>
+							<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+								<tr>
+									<td align = "left">
+										<div class = "margin_01_2"><font class = "font_06">●利用履歴</font></div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<hr class = "mypage" />
+									</td>
+								</tr>
+								<tr>
+									<td width = "50" align = "left">
+											{if 0 < $log_count}
+<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+{foreach from=$logUserApply|smarty:nodefaults item=data name=loop}
+		{include file='./templates/point_data01.tpl' tpl_log=$data tpl_width=676 tpl_font_style=font_06 }
+        {if !$smarty.foreach.loop.last}
+            <tr>
+                <td>
+                    <hr class = "mypage" />
+                </td>
+            </tr>
+        {/if}
+    {/foreach}
+</table>
+{else}
+<font class = "font_06">ポイントを利用したデータありません</font>
+{/if}
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<hr class = "mypage" />
+									</td>
+								</tr>
+								<tr>
+									<td align = "center">
+										<a href="{$link.reload}">
+										<input type = "image" src = "{$img}/sp/mypage/button_modify.jpg" title = "情報を更新する" alt = "情報を更新する" name="button_modify_sp" id="button_modify_sp" onClick = "this.form.submit()"; onmouseover="MM_swapImage('button_modify_sp','','{$img}/sp/mypage/button_modify_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" />
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<hr class = "mypage" />
+									</td>
+								</tr>
+							</table>
+<!-- ポイント利用履歴 ここまで //-->
+
+<!-- マイページTOP ボタン ここから //-->
+							<div class = "margin_01_2"><a href="{$link.mypage}"><input type = "image" value = "submit" src = "{$img}/sp/mypage/button_mypage_top.jpg" title = "マイページTOP" alt = "マイページTOP" name="button_mypage_top_sp" id="button_mypage_top_sp" onmouseover="MM_swapImage('button_mypage_top_sp','','{$img}/sp/mypage/button_mypage_top_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" /></a></div>
+<!-- マイページTOP ボタン ここまで //-->
+
+							<hr class = "mypage" />
+
+<!-- ログアウトボタン ここから //-->
+							<a href = "{$link.logout}"><img src = "{$img}/sp/mypage/button_logout.jpg" name="logout_button_sp" id="logout_button_sp" onmouseover="MM_swapImage('logout_button_sp','','{$img}/sp/mypage/button_logout_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" /></a>
+<!-- ログアウトボタン ここまで //-->
+
+<!-- スマートフォン ここまで //-->
+
+						</div>
+
+					</div>
+
+					<div class = "float_01"></div>
+
+				</div>
+
+<!-- コンテンツ ここから //-->
+				<!--<div class = "contents_area_02 visible-lg visible-md visible-sm">
+
+					<div class = "button_03">
+
+						<a href = "/"><img src = "{$img}/back_top.jpg" width = "100%" alt="トップページに戻る" title = "トップページに戻る" name="contact_button_01" id="contact_button_01" onmouseover="MM_swapImage('contact_button_01','','{$img}/back_top_over.jpg',1)" onmouseout="MM_swapImgRestore()" onmouseup = "this.src = '{$img}/back_top.jpg'" /></a>
+
+					</div>
+
+				</div>//-->
+<!-- コンテンツ ここまで //-->
+
+			</div>
+<!-- メインコンテンツ ここまで //-->
+
+<!-- ページTOPに戻る ここから //-->
+			<script type = "text/javascript">page_top();</script>
+<!-- ページTOPに戻る ここまで //-->
+
+<!-- 公式サイトTOP ここから //-->
+			<script type = "text/javascript">official_top_sp();</script>
+<!-- 公式サイトTOP ここまで //-->
+
+		</div>
+
+<!-- footer ここから //-->
+		<script type = "text/javascript">Footer();</script>
+<!-- footer ここまで //-->
+
+	</body>
+
+</html>

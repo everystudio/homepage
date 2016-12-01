@@ -1,0 +1,779 @@
+{include file="./templates/header.tpl" title="パズルキングダム 公式サイト｜マイページ/新規会員登録/２.ユーザー情報入力" keyword="パズルキングダム,パズル,アプリ,ゲーム,モンスター" desciption="爽快パズルで白熱バトル!! パズルキングダム」は自由にドロップを動かして遊ぶ爽快3マッチパズルゲームです。コンボを決めて敵に大ダメージを与えよう!! キミだけのチームを作ろう!!登場キャラクターは総勢200体!!ダンジョンやガチャで新たなキャラをゲットしよう!!進化や合成を駆使してキミだけの最強チームを作ろう!! １分で遊べるミニゲームを実装!!短時間で遊べるミニゲームを楽しもう!!ミニゲーム第一弾は《爽快シューティング》パズルの後はシューティングで気分爽快!!" no_script = "【注意！！】このページでは、JavaScriptを使用していますので、JavaScriptを無効にしている場合、サイトが正常に機能しない可能性があります。<br />ブラウザの設定でJavaScriptを有効にしてください。<br />※設定方法につきましては、各ブラウザで異なるため、お手数ですが個別にご対応ください。" header_id = 0 contents_title = "マイページ" }
+
+<!-- タイトル ここから //-->
+								<img src = "{$img}/mypage/title_06.jpg" width = "100%" title = "新規会員登録" alt = "新規会員登録" />
+<!-- タイトル ここまで //-->
+
+<!-- パンくずリスト ここから //-->
+									<div align = "left" class = "margin_02"><font class = "font_12"><a href="{$link.mypage}" class = "link_04">ログイン画面</a> ＞ 新規会員登録 ＞ ３.ユーザー情報入力</font></div>
+<!-- パンくずリスト ここまで //-->
+
+<!-- step ここから //-->
+									<img src = "{$img}/mypage/step_03.jpg" width = "100%" title = "３.ユーザー情報入力" alt = "３.ユーザー情報入力" class = "step" />
+<!-- step ここまで //-->
+
+<!-- 説明文 ここから //-->
+									<div class = "margin_05 float_01" align = "left"><font class = "font_07"><br />以下のフォームに、必要事項を入力してください。</font></div>
+<!-- 説明文 ここまで //-->
+
+<!-- 新規会員登録 フォーム ここから //-->
+									<form name = "member_regist" action = "{$link.submit}" method = "post">
+										{if $error_list.checkMailData!=""}<div class = "margin_16 float_left"><font class = "font_10"><br /><br />&nbsp;&nbsp;{$error_list.checkMailData}</font></div>{/if}
+										<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_02">
+											<tr>
+												<td class = "table_02_td">
+													<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■名前（姓）<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<input type = "text" name = "family_name" class = "form_03 no_outline" value='{$family_name}' />
+																{if $error_list.family_name!=""}<font class = "font_10"><br />&nbsp;&nbsp;{$error_list.family_name}</font>{/if}
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■名前（名）<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<input type = "text" name = "form_2" class = "form_03 no_outline" value='{$name}' />
+																{if $error_list.name!=""}<font class = "font_10"><br />&nbsp;&nbsp;{$error_list.name}</font>{/if}
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■ふりがな（姓）<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<input type = "text" name = "family_name_kana" class = "form_03 no_outline" value='{$family_name_kana}'/>
+																{if $error_list.family_name_kana!=""}<font class = "font_10"><br />&nbsp;&nbsp;{$error_list.family_name_kana}</font>{/if}
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■ふりがな（名）<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<input type = "text" name = "form_3" class = "form_03 no_outline" value='{$kana}' />
+																{if $error_list.kana!=""}<font class = "font_10"><br />&nbsp;&nbsp;{$error_list.kana}</font>{/if}
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■性別<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_16 float_left">
+																	<input type = "radio" name = "sex" class = "no_outline" value=1 {if $sex == 1 }checked="checked"{/if}/></div><div class = "margin_02 float_left" ><font class = "font_06" >男</font>
+																</div>
+																<div class = "margin_16 float_left">
+																	<input type = "radio" name = "sex" class = "no_outline" value=2 {if $sex == 2 }checked="checked"{/if}/></div><div class = "margin_02 float_left"><font class = "font_06">女</font>
+																</div>
+																{if $error_list.sex!=""}<font class = "font_10"><br /><br />&nbsp;&nbsp;{$error_list.sex}</font>{/if}
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■生年月日<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<table>
+																	<tr>
+																		<td>
+																			<div class = "margin_03">
+																				<select name = "birth_year" class = "no_outline">
+																					{foreach from=$birth_year_list item=year}
+																					<option value="{$year}" {if $year==$birth_year }selected{/if}>{$year}</option>
+																					{/foreach}
+																				</select>
+																			</div>
+																		</td>
+																		<td>
+																			<div class = "margin_03">
+																				<select name = "birth_month" class = "no_outline">
+																					{foreach from=$birth_month_list item=month}
+																						<option value="{$month}" {if $month==$birth_month }selected{/if}>{$month}</option>
+																					{/foreach}
+																				</select>
+																			</div>
+																		</td>
+																		<td>
+																			<div class = "margin_03">
+																				<select name = "birth_day" class = "no_outline">
+																					{foreach from=$birth_day_list item=day}
+																						<option value="{$day}" {if $day==$birth_day }selected{/if}>{$day}</option>
+																					{/foreach}
+																				</select>
+																			</div>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td colspan="3">{if $error_list.birthdaty!=""}<font class = "font_10">&nbsp;&nbsp;{$error_list.birthdaty}</font>{/if}</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														{include file="./templates/space_table_input.tpl" tpl_col=2 tpl_class_name=mypage }
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■パスワード<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<input type = "password" name = "form_password" class = "form_03 no_outline" /><br /><div class = "margin_03"><font class = "font_11">※半角英数字8文字以上で入力してください。</font></div>
+																{if $error_list.password!=""}<font class = "font_10"><br />&nbsp;&nbsp;{$error_list.password}</font>{/if}
+															</td>
+														</tr>
+														{include file="./templates/space_table_input.tpl" tpl_col=2 tpl_class_name=mypage }
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■パスワード（確認）：</font></div>
+															</td>
+															<td>
+																<input type = "password" name = "form_password_confirm" class = "form_03 no_outline" />
+																{if $error_list.password_confirm!=""}<font class = "font_10"><br />&nbsp;&nbsp;{$error_list.password_confirm}</font>{/if}
+															</td>
+														</tr>
+														{include file="./templates/space_table_input.tpl" tpl_col=2 tpl_class_name=mypage }
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■郵便番号<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<input type = "text" name = "form_4" class = "form_03 no_outline" value='{$postalnumber}'/>
+																{if $error_list.postalnumber!=""}<font class = "font_10"><br />&nbsp;&nbsp;{$error_list.postalnumber}</font>{/if}
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■都道府県<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03">
+																	<select name = "prefecture" class = "no_outline">
+																		{foreach from=$prefecture_list item=prefecture_name name=loop }
+																		<option value={$smarty.foreach.loop.iteration} {if $smarty.foreach.loop.iteration == $prefecture}selected{/if}>{$prefecture_name}</option>
+																		{/foreach}
+																	</select>
+																	{if $error_list.prefecture!=""}<font class = "font_10"><br />{$error_list.prefecture}</font>{/if}
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■市区町村<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<input type = "text" name = "form_5" class = "form_03 no_outline" value='{$municipality}' />
+																{if $error_list.municipality!=""}<font class = "font_10"><br />&nbsp;&nbsp;{$error_list.municipality}</font>{/if}
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■町域<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<input type = "text" name = "form_6" class = "form_03 no_outline" value='{$address01}' />
+																{if $error_list.address01!=""}<font class = "font_10"><br />&nbsp;&nbsp;{$error_list.address01}</font>{/if}
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■番地<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<input type = "text" name = "form_7" class = "form_03 no_outline" value='{$address02}' />
+																{if $error_list.address02!=""}<font class = "font_10"><br />&nbsp;&nbsp;{$error_list.address02}</font>{/if}
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■建物名：</font></div>
+															</td>
+															<td>
+																<input type = "text" name = "form_8" class = "form_03 no_outline" value='{$address03}' />
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■自動車免許<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_16 float_left">
+																	<input type = "radio" name = "licence_01" class = "no_outline" value=1 {if $driver_license!=2}checked="checked"{/if}/></div><div class = "margin_02 float_left"><font class = "font_06">有</font>
+																</div>
+																<div class = "margin_16 float_left">
+																	<input type = "radio" name = "licence_01" class = "no_outline" value=2 {if $driver_license==2}checked="checked"{/if} /></div><div class = "margin_02 float_left"><font class = "font_06">無</font>
+																</div>
+																{if $error_list.driver_license!=""}<font class = "font_10"><br /><br />&nbsp;&nbsp;{$error_list.driver_license}</font>{/if}
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td class = "table_dotline_01">
+																<div class = "margin_03"><font class = "font_06">■秘密の質問<font class = "font_10">（必須）</font>：</font></div>
+															</td>
+															<td>
+																<div class = "margin_03">
+																	<select name = "secret_question" class = "no_outline">
+																		{foreach from=$secret_question_list item=question name=loop}
+																		<option value={$smarty.foreach.loop.iteration} {if $smarty.foreach.loop.iteration==$secret_question}selected{/if} >{$question}</option>
+																		{/foreach}
+																	</select>
+																	{if $error_list.secret_question != ""}<font class = "font_10"><br />&nbsp;{$error_list.secret_question}</font>{/if}
+																	<br /><div class = "margin_07"><input type = "text" name = "secret_answer" class = "form_05 no_outline" value='{$secret_answer}' /></div>
+																	{if $error_list.secret_answer != ""}<font class = "font_10">{$error_list.secret_answer}</font>{/if}
+																</div>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+
+<!-- 確認画面へ ボタン ここから //-->
+									<input type = "image" src = "{$img}/mypage/button_confirm.jpg" title = "確認画面へ" alt = "確認画面へ" name="button_confirm" id="button_confirm" onClick = "this.form.submit()"; onmouseover="MM_swapImage('button_confirm','','{$img}/mypage/button_confirm_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_02" />
+<!-- 確認画面へ ボタン ここまで //-->
+									<input type = "hidden" name = "uid"  value='{$uid}' class = "form_03 no_outline" />
+									<input type = "hidden" name = "secret_code" value='{$secret_code}' class = "form_03 no_outline" />
+
+									</form>
+<!-- 新規会員登録 フォーム ここまで //-->
+
+<!-- リセット フォーム ここから //-->
+									<form name="test_input" action="{$link.submit}" method="post">
+										<input type = "hidden" name = "form_2" value = "">
+										<input type = "hidden" name = "form_3" value = "">
+										<input type = "hidden" name = "uid" value = "">
+										<input type = "hidden" name = "secret_code" value = "">
+										<input type = "hidden" name = "sex" value = "">
+										<input type = "hidden" name = "birth_year" value = "">
+										<input type = "hidden" name = "birth_month" value = "">
+										<input type = "hidden" name = "birth_day" value = "">
+										<input type = "hidden" name = "forom_password" value = "">
+										<input type = "hidden" name = "form_password_confirm" value = "">
+										<input type = "hidden" name = "form_mailaddress" value = "">
+										<input type = "hidden" name = "form_mailaddress_confirm" value = "">
+										<input type = "hidden" name = "form_4" value = "">
+										<input type = "hidden" name = "prefecture" value = "">
+										<input type = "hidden" name = "form_5" value = "">
+										<input type = "hidden" name = "form_6" value = "">
+										<input type = "hidden" name = "form_7" value = "">
+										<input type = "hidden" name = "form_8" value = "">
+										<input type = "hidden" name = "licence_01" value = "">
+										<input type = "hidden" name = "secret_question" value = "">
+										<input type = "hidden" name = "secret_answer" value = "">
+
+<!-- リセット ボタン ここから //-->
+										<input type = "image" src = "{$img}/mypage/button_reset.jpg" title = "リセット" alt = "リセット" name="button_reset" id="button_reset" onClick = "this.form.submit()"; onmouseover="MM_swapImage('button_reset','','{$img}/mypage/button_reset_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_02" />
+<!-- リセット ボタン ここまで //-->
+									</form>
+<!-- リセット フォーム ここまで //-->
+
+<!-- 公式サイトTOP ボタン ここから //-->
+									<!--<a href="{$link.official_top}"><img src = "{$img}/mypage/button_official_top.jpg" title = "公式サイトTOP" alt = "公式サイトTOP" name="button_official_top" id="button_official_top" onmouseover="MM_swapImage('button_official_top','','{$img}/mypage/button_official_top_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_02" /></a>//-->
+<!-- 公式サイトTOP ボタン ここまで //-->
+
+								</div>
+
+							</div></div>
+
+<!-- 罫線 ここから //-->
+							<div class = "contents_area_border_01_b visible-lg visible-md visible-sm"><div class = "float_left"><img src = "{$img}/frame_b_l.gif" title = "frame_b_l" alt = "frame_b_l" /></div>&nbsp;<div class = "float_right"><img src = "{$img}/frame_b_r.gif" title = "frame_b_r" alt = "frame_b_r" /></div></div>
+<!-- 罫線 ここまで //-->
+
+<!-- 公式サイトTOP ここから //-->
+						<script type = "text/javascript">official_top();</script>
+<!-- 公式サイトTOP ここまで //-->
+
+<!-- PC ここまで //-->
+
+<!-- スマートフォン ここから //-->
+						<div class = "contents_area_border visible-xs">
+
+<!-- タイトル ここから //-->
+							<img src = "{$img}/sp/mypage/title_06.jpg" width = "100%" title = "新規会員登録" alt = "新規会員登録" />
+<!-- タイトル ここまで //-->
+
+<!-- step ここから //-->
+							<img src = "{$img}/sp/mypage/step_03.jpg" width = "100%" title = "３.ユーザー情報入力" alt = "３.ユーザー情報入力" />
+<!-- step ここまで //-->
+
+<!-- パンくずリスト ここから //-->
+							<div align = "left" class = "margin_07"><div class = "float_left"><font class = "font_08"><a href = "{$link.mypage}" class = "link_02">ログイン画面</a> ＞ 新規会員登録 ＞ ３.ユーザー情報入力</a></font></div></div>
+<!-- パンくずリスト ここまで //-->
+
+<!-- ログイン フォーム ここから //-->
+							<form name = "member_regist_sp" action = "{$link.submit}" method = "post">
+								<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<font class = "font_06">以下のフォームに、必要事項を入力してください。</font>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<font class = "font_06">■名前（姓）<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<input type = "text" name = "family_name" class = "form_04 no_outline" value='{$family_name}' />{if $error_list.family_name!=""}<font class = "font_10"><br />{$error_list.family_name}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<font class = "font_06">■名前（名）<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<input type = "text" name = "form_2" class = "form_04 no_outline" value='{$name}' />{if $error_list.name!=""}<font class = "font_10"><br />{$error_list.name}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td width = "50" align = "left">
+											<font class = "font_06">■ふりがな（姓）<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<input type = "text" name = "family_name_kana" class = "form_04 no_outline" value='{$family_name_kana}' />{if $error_list.family_name_kana!=""}<font class = "font_10"><br />{$error_list.family_name_kana}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td width = "50" align = "left">
+											<font class = "font_06">■ふりがな（名）<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<input type = "text" name = "form_3" class = "form_04 no_outline" value='{$kana}' />{if $error_list.kana!=""}<font class = "font_10"><br />{$error_list.kana}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td width = "50" align = "left">
+											<font class = "font_06">■性別<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<div class = "margin_11 float_left"><input type = "radio" name = "sex" class = "no_outline" value=1 {if $sex == 1 }checked="checked"{/if} /></div><div class = "margin_02 float_left"><font class = "font_06">男</font></div><div class = "margin_11_2 float_left"><input type = "radio" name = "sex" class = "no_outline" value=2 {if $sex == 2 }checked="checked"{/if} /></div><div class = "margin_02 float_left"><font class = "font_06">女</font></div>
+											{if $error_list.sex!=""}<br /><br /><font class = "font_10">{$error_list.sex}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td width = "50" align = "left">
+											<font class = "font_06">■生年月日<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<table>
+												<tr>
+													<td>
+														<select name = "birth_year" class = "no_outline">
+															{foreach from=$birth_year_list item=year}
+															<option value="{$year}" {if $year==$birth_year }selected{/if}>{$year}</option>
+															{/foreach}
+														</select>
+													</td>
+													<td>
+														<div class = "margin_17">
+															<select name = "birth_month" class = "no_outline">
+																{foreach from=$birth_month_list item=month}
+																	<option value="{$month}" {if $month==$birth_month }selected{/if}>{$month}</option>
+																{/foreach}
+															</select>
+														</div>
+													</td>
+													<td>
+														<div class = "margin_17">
+															<select name = "birth_day" class = "no_outline">
+																{foreach from=$birth_day_list item=day}
+																	<option value="{$day}" {if $day==$birth_day }selected{/if}>{$day}</option>
+																{/foreach}
+															</select>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="3" align = "left">{if $error_list.birthdaty!=""}<font class = "font_10">{$error_list.birthdaty}</font>{/if}</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<font class = "font_06">■パスワード<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<input type = "password" name = "form_password" class = "form_04 no_outline" />{if $error_list.password!=""}<font class = "font_10"><br />{$error_list.password}</font>{/if}
+										</td>
+									</tr>
+									<!--
+									<tr>
+										<td>
+											<div align = "left" class = "margin_11"><font class = "font_07">※半角英数字8文字以上で入力してください。<br />※パスワードを忘れた方は<a href="{$link.foreget}" class = "link_01">こちら</a></font></div>
+										</td>
+									</tr>
+									-->
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<font class = "font_06">■パスワード（確認）：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<input type = "password" name = "form_password_confirm" class = "form_04 no_outline" />{if $error_list.password_confirm!=""}<font class = "font_10"><br />{$error_list.password_confirm}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td width = "50" align = "left">
+											<font class = "font_06">■郵便番号<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<input type = "text" name = "form_4" class = "form_04 no_outline" value='{$postalnumber}' />{if $error_list.postalnumber!=""}<font class = "font_10"><br />{$error_list.postalnumber}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td width = "50" align = "left">
+											<font class = "font_06">■都道府県<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<select name = "prefecture" class = "no_outline">
+												{foreach from=$prefecture_list item=prefecture_name name=loop }
+												<option value={$smarty.foreach.loop.iteration} {if $smarty.foreach.loop.iteration == $prefecture}selected{/if}>{$prefecture_name}</option>
+												{/foreach}
+											</select>
+											{if $error_list.prefecture!=""}<font class = "font_10"><br />{$error_list.prefecture}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td width = "50" align = "left">
+											<font class = "font_06">■市区町村<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<input type = "text" name = "form_5" class = "form_04 no_outline" value='{$municipality}' />{if $error_list.municipality!=""}<font class = "font_10"><br />{$error_list.municipality}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td width = "50" align = "left">
+											<font class = "font_06">■町域<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<input type = "text" name = "form_6" class = "form_04 no_outline" value='{$address01}' />{if $error_list.address01!=""}<font class = "font_10"><br />{$error_list.address01}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td width = "50" align = "left">
+											<font class = "font_06">■番地<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<input type = "text" name = "form_7" class = "form_04 no_outline" value='{$address02}' />{if $error_list.address01!=""}<font class = "font_10"><br />{$error_list.address01}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td width = "50" align = "left">
+											<font class = "font_06">■建物名：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "center">
+											<input type = "text" name = "form_8_sp" class = "form_04 no_outline" value='{$address03}' />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td width = "50" align = "left">
+											<font class = "font_06">■自動車免許<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<div class = "margin_11 float_left">
+												<input type = "radio" name = "licence_01" class = "no_outline" value=1 {if $driver_license!=2}checked="checked"{/if} /></div><div class = "margin_02 float_left"><font class = "font_06">有</font>
+											</div>
+											<div class = "margin_11_2 float_left">
+												<input type = "radio" name = "licence_02" class = "no_outline" value=2 {if $driver_license==2}checked="checked"{/if} /></div><div class = "margin_02 float_left"><font class = "font_06">無</font>
+											</div>
+											{if $error_list.driver_license!=""}<font class = "font_10"><br /><br />{$error_list.driver_license}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td width = "50" align = "left">
+											<font class = "font_06">■秘密の質問<font class = "font_10">（必須）</font>：</font>
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<select name = "secret_question_sp" class = "no_outline">
+												{foreach from=$secret_question_list item=question name=loop}
+												<option value={$smarty.foreach.loop.iteration} {if $smarty.foreach.loop.iteration==$secret_question}selected{/if} >{$question}</option>
+												{/foreach}
+											</select>
+											{if $error_list.secret_question != ""}<font class = "font_10"><br />&nbsp;{$error_list.secret_question}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td align = "left">
+											<div class = "margin_01_2"><input type = "text" name = "secret_answer" class = "form_06 no_outline" value="{$secret_answer}"/>
+											{if $error_list.secret_answer != ""}<br /><font class = "font_10">{$error_list.secret_answer}</font>{/if}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+									<tr>
+										<td align = "center">
+											<input type = "image" src = "{$img}/sp/mypage/button_confirm.jpg" title = "確認画面へ" alt = "確認画面へ" name="button_confirm_sp" id="button_confirm_sp" onClick = "this.form.submit()"; onmouseover="MM_swapImage('button_confirm_sp','','{$img}/sp/mypage/button_confirm_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<hr class = "mypage" />
+										</td>
+									</tr>
+								</table>
+
+								<input type = "hidden" name = "uid"  value='{$uid}' class = "form_04 no_outline" />
+								<input type = "hidden" name = "secret_code" value='{$secret_code}' class = "form_04 no_outline" />
+
+							</form>
+<!-- ログイン フォーム ここまで //-->
+
+<!-- リセット フォーム ここから //-->
+							<form name="test_input_sp" action="{$link.submit}" method="post">
+								<input type = "hidden" name = "form_2" value = "">
+								<input type = "hidden" name = "form_3" value = "">
+								<input type = "hidden" name = "uid" value = "">
+								<input type = "hidden" name = "secret_code" value = "">
+								<input type = "hidden" name = "sex" value = "">
+								<input type = "hidden" name = "birth_year" value = "">
+								<input type = "hidden" name = "birth_month" value = "">
+								<input type = "hidden" name = "birth_day" value = "">
+								<input type = "hidden" name = "forom_password" value = "">
+								<input type = "hidden" name = "form_password_confirm" value = "">
+								<input type = "hidden" name = "form_mailaddress" value = "">
+								<input type = "hidden" name = "form_mailaddress_confirm" value = "">
+								<input type = "hidden" name = "form_4" value = "">
+								<input type = "hidden" name = "prefecture" value = "">
+								<input type = "hidden" name = "form_5" value = "">
+								<input type = "hidden" name = "form_6" value = "">
+								<input type = "hidden" name = "form_7" value = "">
+								<input type = "hidden" name = "form_8" value = "">
+								<input type = "hidden" name = "licence_01" value = "">
+								<input type = "hidden" name = "secret_question" value = "">
+								<input type = "hidden" name = "secret_answer" value = "">
+
+<!-- リセット ボタン ここから //-->
+								<div><input type = "image" value = "submit" src = "{$img}/sp/mypage/button_reset.jpg" title = "リセット" alt = "リセット" name="button_reset_sp" id="button_reset_sp" onClick = "this.form.submit()"; onmouseover="MM_swapImage('button_reset_sp','','{$img}/sp/mypage/button_reset_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" /></div>
+<!-- リセット ボタン ここまで //-->
+
+							</form>
+<!-- リセット フォーム ここまで //-->
+
+<!-- 公式サイトTOP ボタン ここから //-->
+							<!--<a href="{$link.official_top}"><input type = "image" value = "submit" src = "{$img}/sp/mypage/button_official_top.jpg" title = "公式サイトTOP" alt = "公式サイトTOP" name="button_official_top_sp" id="button_official_top_sp" onmouseover="MM_swapImage('button_official_top_sp','','{$img}/sp/mypage/button_official_top_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" /></a>//-->
+<!-- 公式サイトTOP ボタン ここまで //-->
+
+<!-- スマートフォン ここまで //-->
+
+						</div>
+
+					</div>
+
+					<div class = "float_01"></div>
+
+				</div>
+<!-- コンテンツ ここまで //-->
+
+<!-- コンテンツ ここから //-->
+				<!--<div class = "contents_area_02 visible-lg visible-md visible-sm">
+
+					<div class = "button_03">
+
+						<a href = "/"><img src = "{$img}/back_top.jpg" width = "100%" alt="トップページに戻る" title = "トップページに戻る" name="contact_button_01" id="contact_button_01" onmouseover="MM_swapImage('contact_button_01','','{$img}/back_top_over.jpg',1)" onmouseout="MM_swapImgRestore()" onmouseup = "this.src = '{$img}/back_top.jpg'" /></a>
+
+					</div>
+
+				</div>//-->
+<!-- コンテンツ ここまで //-->
+
+			</div>
+<!-- メインコンテンツ ここまで //-->
+
+<!-- ページTOPに戻る ここから //-->
+			<script type = "text/javascript">page_top();</script>
+<!-- ページTOPに戻る ここまで //-->
+
+<!-- 公式サイトTOP ここから //-->
+			<script type = "text/javascript">official_top_sp();</script>
+<!-- 公式サイトTOP ここまで //-->
+
+		</div>
+
+<!-- footer ここから //-->
+		<script type = "text/javascript">Footer();</script>
+<!-- footer ここまで //-->
+
+	</body>
+
+</html>

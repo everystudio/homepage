@@ -1,0 +1,258 @@
+{include file='./templates/header.tpl'}
+
+<body>
+
+	<a id="top"></a>
+
+<!-- JavaScriptを無効にしている場合 ここから //-->
+	<noscript><br /><div align = "center" style = "width: 100%"><div align = "left" style = "width: 780px; font-size: 11pt; color: #ffffff; text-align: left; margin: 0px auto">【注意！！】このページでは、JavaScriptを使用していますので、JavaScriptを無効にしている場合、サイトが正常に機能しない可能性があります。<br />ブラウザの設定でJavaScriptを有効にしてください。<br />※設定方法につきましては、各ブラウザで異なるため、お手数ですが個別にご対応ください。</div></div><br /></noscript>
+<!-- JavaScriptを無効にしている場合 ここまで //-->
+
+		<div id = "contents">
+
+<!-- メインコンテンツ ここから //-->
+			<div id = "main_contents">
+
+<!-- メインイメージ ここから //-->
+				<script type = "text/javascript">Header(0, {$env});</script>
+<!-- メインイメージ ここまで //-->
+
+<!-- コンテンツタイトル PC用 ここから //-->
+				<div class = "contents_area visible-lg visible-md visible-sm">
+					<div class = "column_1">
+
+						<div class = "contents_title"><img src = "{$img}/mypage/contents_title.jpg" width = "100%" border="0" title = "マイページ" alt = "マイページ" /></div>
+
+					</div>
+				</div>
+<!-- コンテンツタイトル ここまで //-->
+
+<!-- コンテンツタイトル スマートフォン用 ここから //-->
+				<div class = "contents_area_02 visible-xs">
+					<div class = "column_1">
+
+						<div class = "contents_title"><img src = "{$img}/sp/mypage/contents_title.jpg" width = "100%" border="0" title = "マイページ" alt = "マイページ" /></div>
+
+					</div>
+				</div>
+<!-- コンテンツタイトル ここまで //-->
+
+<!-- コンテンツ ここから //-->
+				<div class = "contents_area">
+
+					<div class = "column_1_2">
+
+<!-- PC ここから //-->
+
+<!-- 罫線 ここから //-->
+							<div class = "contents_area_border_01 visible-lg visible-md visible-sm"><div class = "float_left"><img src = "{$img}/frame_t_l.gif" title = "frame_t_l" alt = "frame_t_l" /></div>&nbsp;<div class = "float_right"><img src = "{$img}/frame_t_r.gif" title = "frame_t_r" alt = "frame_t_r" /></div></div>
+
+							<div class = "contents_area_border_02 visible-lg visible-md visible-sm"><div class = "contents_area_border_02_r">
+<!-- 罫線 ここまで //-->
+
+								<div class = "contents_area_border_03_3 visible-lg visible-md visible-sm">
+
+<!-- タイトル ここから //-->
+									<img src = "{$img}/mypage/title_01.jpg" width = "100%" title = "ログイン画面" alt = "ログイン画面" />
+<!-- タイトル ここまで //-->
+
+<!-- ログイン フォーム ここから //-->
+									<form name = "login" action = "{$link.submit}" method = "post">
+										<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_02">
+											<tr>
+												<td class = "table_02_td">
+													<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+														<tr>
+															<td width = "150">
+																<div class = "margin_03"><font class = "font_06">■メールアドレス：</font></div>
+															</td>
+															<td>
+																<input type = "text" name = "form_1" class = "form_03 no_outline" />
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<div class = "margin_03"><font class = "font_06">■パスワード：</font></div>
+															</td>
+															<td>
+																<input type = "text" name = "form_2" class = "form_03 no_outline" />
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<div class = "margin_03"><font class = "font_07"><br />※パスワードを忘れた方は<a href="{$link.foreget}" class = "link_04">こちら</a></font></div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<hr class = "mypage" />
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2" align = "center">
+																<a href="{$link.submit}">
+																	<input type = "image" value = "submit" src = "{$img}/mypage/button_01.jpg" name="button_01" id="button_01" alt="ログイン" title = "ログイン" onmouseover="MM_swapImage('button_01','','{$img}/mypage/button_01_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" />
+																</a>
+															</td>
+														</tr>
+														<tr>
+															<td colspan = "2">
+																<div class = "mypage_button_01"><div class = "float_left margin_06"><input name = "check_box_01" type = "checkbox"></div><div class = "margin_02 float_left"><font class = "font_07">次回から自動でログインする</font></div></div>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+
+										<input type = "hidden" name = "is_sp" value = "">
+									</form>
+<!-- ログイン フォーム ここまで //-->
+
+<!-- 新規会員登録 ボタン ここから //-->
+									<a href="{$link.newcomer}"><img src = "{$img}/mypage/button_02.jpg" title = "新規会員登録" alt = "新規会員登録" name="button_02" id="button_02" onmouseover="MM_swapImage('button_02','','{$img}/mypage/button_02_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_02" /></a><div class = "margin_09"><div align = "left" class = "mypage_button_01"><font class = "font_07">▲まだ登録がお済みでない方はこちら</font></div></div>
+<!-- 新規会員登録 ボタン ここまで //-->
+
+								</div>
+
+							</div></div>
+
+<!-- 罫線 ここから //-->
+							<div class = "contents_area_border_01_b visible-lg visible-md visible-sm"><div class = "float_left"><img src = "{$img}/frame_b_l.gif" title = "frame_b_l" alt = "frame_b_l" /></div>&nbsp;<div class = "float_right"><img src = "{$img}/frame_b_r.gif" title = "frame_b_r" alt = "frame_b_r" /></div></div>
+<!-- 罫線 ここまで //-->
+
+<!-- HOMEに戻る ここから //-->
+							<div align = "right" class = "margin_01 visible-lg visible-md visible-sm"><font class = 'font_02'><a href = "/" class = 'link_02'>HOMEに戻る</a></font></div>
+<!-- HOMEに戻る ここまで //-->
+
+<!-- PC ここまで //-->
+
+<!-- スマートフォン ここから //-->
+							<div class = "contents_area_border visible-xs">
+
+<!-- タイトル ここから //-->
+								<img src = "{$img}/sp/mypage/title_01.jpg" width = "100%" title = "ログイン画面" alt = "ログイン画面" />
+<!-- タイトル ここまで //-->
+
+<!-- ログイン フォーム ここから //-->
+								<form name = "login_sp" action = "{$link.submit}" method = "post">
+									<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_02">
+										<tr>
+											<td class = "table_02_td">
+												<table border = "0" cellspacing = "0" cellpadding = "0" class = "table_03">
+													<tr>
+														<td width = "50">
+															<font class = "font_06">■メールアドレス：</font>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<div class = "margin_01"><input type = "text" name = "form_1_sp" class = "form_03 no_outline" /></div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<hr class = "mypage" />
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<font class = "font_06">■パスワード：</font>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<div class = "margin_01"><input type = "text" name = "form_2_sp" class = "form_03 no_outline" /></div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<div class = "margin_01"><font class = "font_07">※パスワードを忘れた方は<a href="{$link.foreget}" class = "link_04">こちら</a></font></div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<hr class = "mypage" />
+														</td>
+													</tr>
+													<tr>
+														<td align = "center">
+															<a href="{$link.submit}">
+																<input type = "image" value = "submit" src = "{$img}/sp/mypage/button_01.jpg" name="button_01_sp" id="button_01_sp" alt="ログイン" title = "ログイン" onmouseover="MM_swapImage('button_01_sp','','{$img}/sp/mypage/button_01_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" />
+																<!-- <img src = "{$img}/mypage/button_01.jpg" name="button_01_sp" id="button_01_sp" alt="ログイン" title = "ログイン" onmouseover="MM_swapImage('button_01_sp','','{$img}/mypage/button_01_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_01" /></a> -->
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<div class = "mypage_button_01"><div class = "float_left margin_06"><input name = "check_box_01_sp" type = "checkbox"></div><div class = "margin_02 float_left"><font class = "font_07">次回から自動でログインする</font></div></div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<hr class = "mypage_b" />
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+
+									<input type = "hidden" name = "is_sp" value = "_sp">
+								</form>
+<!-- ログイン フォーム ここまで //-->
+
+<!-- 新規会員登録 ボタン ここから //-->
+								<a href="{$link.newcomer}"><input type = "image" value = "submit" src = "{$img}/sp/mypage/button_02.jpg" title = "新規会員登録" alt = "新規会員登録" name="button_02_sp" id="button_02_sp" onmouseover="MM_swapImage('button_02_sp','','{$img}/sp/mypage/button_02_over.jpg',1)" onmouseout="MM_swapImgRestore()" class = "mypage_button_02" /></a><div class = "margin_09"><div align = "left" class = "mypage_button_01"><font class = "font_07">▲まだ登録がお済みでない方はこちら</font></div></div>
+<!-- 新規会員登録 ボタン ここまで //-->
+
+<!-- スマートフォン ここまで //-->
+
+					</div>
+
+					<div class = "float_01"></div>
+
+				</div>
+
+				<!--<div class = "contents_area_02 visible-lg visible-md visible-sm">
+
+					<div class = "button_03">
+
+						<a href = "/"><img src = "{$img}/back_top.jpg" width = "100%" alt="トップページに戻る" title = "トップページに戻る" name="contact_button_01" id="contact_button_01" onmouseover="MM_swapImage('contact_button_01','','{$img}/back_top_over.jpg',1)" onmouseout="MM_swapImgRestore()" onmouseup = "this.src = '{$img}/back_top.jpg'" /></a>
+
+					</div>
+
+				</div>//-->
+
+			</div>
+<!-- メインコンテンツ ここまで //-->
+
+<!-- ページTOPに戻る ここから //-->
+			<script type = "text/javascript">page_top();</script>
+<!-- ページTOPに戻る ここまで //-->
+
+<!-- HOMEに戻る ここから //-->
+			<!--<div class = "column_1_back_home visible-xs">
+
+				<div class = "sp_contents_04"><a href="/">
+					<font>HOMEに戻る</font>
+				</a></div>
+
+			</div>//-->
+<!-- HOMEに戻る ここまで //-->
+
+		</div>
+
+<!-- footer ここから //-->
+		<script type = "text/javascript">Footer();</script>
+<!-- footer ここまで //-->
+
+	</body>
+
+</html>
+
+

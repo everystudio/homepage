@@ -1,0 +1,3565 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mailad",
+				"mail_address_new"
+			],
+			[
+				"mail_addre",
+				"mail_address_new"
+			],
+			[
+				"_se",
+				"_SESSION"
+			],
+			[
+				"getpri",
+				"getPrizeDataList"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"passw",
+				"password"
+			],
+			[
+				"st",
+				"string_check"
+			],
+			[
+				"ise",
+				"is_error"
+			],
+			[
+				"add",
+				"address02"
+			],
+			[
+				"perf",
+				"perfecture"
+			],
+			[
+				"famil",
+				"family_name_furi"
+			],
+			[
+				"pa",
+				"passoword_length"
+			],
+			[
+				"pass",
+				"password_confirm"
+			],
+			[
+				"bi",
+				"birth_day"
+			],
+			[
+				"secre",
+				"secret_question"
+			],
+			[
+				"birt",
+				"birth_year_list"
+			],
+			[
+				"perfe",
+				"perfecture_list"
+			],
+			[
+				"ma",
+				"mail_address"
+			],
+			[
+				"me",
+				"methodName"
+			],
+			[
+				"has",
+				"hashed_password"
+			],
+			[
+				"file",
+				"filename_search"
+			],
+			[
+				"Dele",
+				"DeleteDatabases"
+			],
+			[
+				"str",
+				"strPersistentDataPath"
+			],
+			[
+				"crea",
+				"creaedate"
+			],
+			[
+				"forma",
+				"DATE_FORMAT"
+			],
+			[
+				"data",
+				"data_list"
+			],
+			[
+				"poinid",
+				"pointid"
+			],
+			[
+				"addpo",
+				"add_point_id"
+			],
+			[
+				"ballnum",
+				"BALL_NUMBER_X"
+			],
+			[
+				"SQLite",
+				"SQLiteQuery"
+			],
+			[
+				"sql",
+				"m_sqlDB"
+			],
+			[
+				"gu",
+				"gui	GUI.TextField(position,string,maxlength,style)"
+			],
+			[
+				"Error",
+				"ErrorCode"
+			],
+			[
+				"erro",
+				"error_code"
+			],
+			[
+				"_str",
+				"_strKey"
+			],
+			[
+				"resume",
+				"ResumeManager"
+			],
+			[
+				"m_",
+				"m_sqlAsync"
+			],
+			[
+				"test_",
+				"test_values"
+			],
+			[
+				"Se",
+				"SelectQueryCreated"
+			],
+			[
+				"m_at",
+				"m_atlSystemTemp"
+			],
+			[
+				"tbo",
+				"m_tBox"
+			],
+			[
+				"re",
+				"RECIEVE_CHECK"
+			],
+			[
+				"RECI",
+				"RECIEVE"
+			],
+			[
+				"RE",
+				"RECIEVE_INIT"
+			],
+			[
+				"m_cs",
+				"m_csTabManager"
+			],
+			[
+				"sea",
+				"search_help_data_child"
+			],
+			[
+				"ins",
+				"Instance"
+			],
+			[
+				"m_t",
+				"m_tEventAll"
+			],
+			[
+				"mt",
+				"m_tEventAll"
+			],
+			[
+				"imag",
+				"image_nannka"
+			],
+			[
+				"page",
+				"PAGE_MOVE_TIME"
+			],
+			[
+				"move",
+				"PAGE_MOVE_TIME"
+			],
+			[
+				"open",
+				"OPEN_DETAIL"
+			],
+			[
+				"m_spapp",
+				"m_sprApplyResult"
+			],
+			[
+				"m_sprapp",
+				"m_sprApplyBox"
+			],
+			[
+				"Ctrl",
+				"CtrlApplyResultIcon"
+			],
+			[
+				"Tbox",
+				"TApplyResultOpenBox"
+			],
+			[
+				"gameo",
+				"GameObject"
+			],
+			[
+				"resulteff",
+				"CtrlApplyResultEff"
+			],
+			[
+				"m_pref",
+				"m_prefResultEffct"
+			],
+			[
+				"cs",
+				"csIconList"
+			],
+			[
+				"tapp",
+				"TApplyResultData"
+			],
+			[
+				"t",
+				"TApplyResultData"
+			],
+			[
+				"cout",
+				"count_data"
+			],
+			[
+				"va",
+				"value1"
+			],
+			[
+				"pro",
+				"processing"
+			],
+			[
+				"strin",
+				"StringCellValue"
+			],
+			[
+				"monst",
+				"monster_list"
+			],
+			[
+				"twee",
+				"TweenAlphaAll"
+			],
+			[
+				"apply",
+				"ApplyResultTop"
+			],
+			[
+				"fadein",
+				"FADE_IN"
+			],
+			[
+				"load",
+				"LOAD"
+			],
+			[
+				"fade",
+				"fadein_title"
+			],
+			[
+				"Len",
+				"LENGTH"
+			],
+			[
+				"pu",
+				"PuzzleColorProbMaker"
+			],
+			[
+				"tmon",
+				"m_tMonster"
+			],
+			[
+				"m_intco",
+				"m_intCoinNum"
+			],
+			[
+				"enabl",
+				"EnableButton"
+			],
+			[
+				"write",
+				"WriteSQL"
+			],
+			[
+				"detai",
+				"MONSTER_DETAIL"
+			],
+			[
+				"m_csctrt",
+				"m_csCtrlEvolution"
+			],
+			[
+				"_i",
+				"_iBottom"
+			],
+			[
+				"GetCompo",
+				"GetComponentsInChildren"
+			],
+			[
+				"m_i",
+				"m_iGameSceneAge"
+			],
+			[
+				"age_chec",
+				"AGE_CHECK_DIALOG_END"
+			],
+			[
+				"Dialog",
+				"PanelDialog"
+			],
+			[
+				"mains",
+				"isFromMainScene"
+			],
+			[
+				"OnFinis",
+				"OnFinishedFadeoutMonsterCheck"
+			],
+			[
+				"status",
+				"STATUS"
+			],
+			[
+				"push",
+				"PUSHEDMATERIAL"
+			],
+			[
+				"for",
+				"foreach"
+			],
+			[
+				"Monster",
+				"MonsterListIcon"
+			],
+			[
+				"tab",
+				"TAB"
+			],
+			[
+				"m_b",
+				"m_bFadein"
+			],
+			[
+				"strRe",
+				"strReplaceName"
+			],
+			[
+				"TE",
+				"TEventPresent"
+			],
+			[
+				"enemymana",
+				"m_csEnemyManager"
+			],
+			[
+				"battleenem",
+				"battle_enemy"
+			],
+			[
+				"firs",
+				"FIRSTCLEAR_DESC"
+			],
+			[
+				"comb",
+				"combine_list"
+			],
+			[
+				"gach",
+				"GACHA"
+			],
+			[
+				"tsch",
+				"tScheduleAll"
+			],
+			[
+				"SCHee",
+				"SCHEDULE_TYPE"
+			],
+			[
+				"du",
+				"dungeon_list"
+			],
+			[
+				"tsche",
+				"TScheduleAll"
+			],
+			[
+				"intfr",
+				"intFriendNum"
+			],
+			[
+				"copylong",
+				"copyLongToInt"
+			],
+			[
+				"ne",
+				"SetNextTab"
+			],
+			[
+				"datare",
+				"DATA_RECIEVE"
+			],
+			[
+				"Tab",
+				"m_csTabManager"
+			],
+			[
+				"enetw",
+				"E_NETWORK"
+			],
+			[
+				"FRIEND_",
+				"FRIEND_ACCEPT"
+			],
+			[
+				"fri",
+				"FRIEND_APPLY"
+			],
+			[
+				"_inthe",
+				"_intHelperMid"
+			],
+			[
+				"_inthel",
+				"_intHelperId"
+			],
+			[
+				"m_gohead",
+				"m_goHeadInfo"
+			],
+			[
+				"gotoupdaapp",
+				"GOTO_UPDATE_APP"
+			],
+			[
+				"versione",
+				"VERSION_ERROR"
+			],
+			[
+				"app",
+				"APP_VERSION"
+			],
+			[
+				"dia",
+				"DIALOG_IN"
+			],
+			[
+				"Start",
+				"StartDispGrp"
+			],
+			[
+				"TF",
+				"TFriend"
+			],
+			[
+				"na",
+				"MONSTER_NAME"
+			],
+			[
+				"onfi",
+				"onFinishFadein"
+			],
+			[
+				"ENET",
+				"E_NETWORK"
+			],
+			[
+				"m_intls",
+				"m_intLSkillAtkUpCount"
+			],
+			[
+				"att",
+				"ATTACK_UP_EX"
+			],
+			[
+				"attackup",
+				"ATTACK_UP"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/sql/create_user.sql",
+			"settings":
+			{
+				"buffer_size": 2449,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/top/index.html",
+			"settings":
+			{
+				"buffer_size": 11075,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/ChangeController.php",
+			"settings":
+			{
+				"buffer_size": 17177,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/TopController.php",
+			"settings":
+			{
+				"buffer_size": 1970,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/templates/header.tpl",
+			"settings":
+			{
+				"buffer_size": 3499,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/templates/point_data01.tpl",
+			"settings":
+			{
+				"buffer_size": 368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/facade/InputFacade.php",
+			"settings":
+			{
+				"buffer_size": 6918,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/edit/profile.html",
+			"settings":
+			{
+				"buffer_size": 32620,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/settings/database.php",
+			"settings":
+			{
+				"buffer_size": 1325,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 197 files for \"rds.amazonaws\"\n\n/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/settings/applyDatabase.php:\n   15      case 'staging'://ステージングでのDB向き先設定\n   16          $appDb = array(\n   17:             'user' => array('host' => 'staging-puzzle-db.cxmlqtgxkbsb.ap-northeast-1.rds.amazonaws.com', 'username' => 'taison_inc', 'password' => '43Q9q3gFhq', 'dbname' => 'user'),\n   18:             'event'=> array('host' => 'staging-puzzle-db.cxmlqtgxkbsb.ap-northeast-1.rds.amazonaws.com', 'username' => 'taison_inc', 'password' => '43Q9q3gFhq', 'dbname' => 'event'),\n   19:             'log'  => array('host' => 'staging-puzzle-db.cxmlqtgxkbsb.ap-northeast-1.rds.amazonaws.com', 'username' => 'taison_inc', 'password' => '43Q9q3gFhq', 'dbname' => 'log')\n   20          );\n   21          break;\n\n/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/settings/database.php:\n   14      case 'staging'://ステージングでのDB向き先設定\n   15          $db = array(\n   16:             \"user_official\" => array('host' => 'website-staging.cxmlqtgxkbsb.ap-northeast-1.rds.amazonaws.com', 'username' => 'admin', 'password' => 'taison2014', 'dbname' => 'user_official'),\n   17          );\n   18          break;\n   19      case 'production'://本番環境でのDB向き先設定\n   20          $db = array(\n   21:             \"user_official\" => array('host' => 'website-honnban-db.cxmlqtgxkbsb.ap-northeast-1.rds.amazonaws.com', 'username' => 'admin', 'password' => 'taison2014', 'dbname' => 'user_official'),\n   22          );\n   23          break;\n\n5 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 1540,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/settings/applyDatabase.php",
+			"settings":
+			{
+				"buffer_size": 2124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/InputController.php",
+			"settings":
+			{
+				"buffer_size": 15891,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "アトリエクエストボード攻略　まず覚えるべき3つのポイント\n\nこのゲームはなかなかに奥が深く、やりごたえがあります！<br />\nでもいきなり始めるとわからないことがたくさんあるので、最初の方は\nわかりやすい攻略にしぼってゲームを楽しむとよいかもしれません<br />\n\n\n曜日クエストを活用する\n普通に強化や錬金をしているとコール（ゲーム内の通貨）がわりとすぐなくなってしまいます。\n\n\n\n錬金をして親愛度を上げる\n\nランクBの装備を錬金する\n\n\nいろいろアプリやってますけど、これ、難易度高くないですかねぇ？\n\n\n\nあとがき\n僕も長くアトリエシリーズやってるわけでなないですけど、\n好きなゲームではあるので、アプリを介してファンが増えてくれるといいなー\n\n\n\n\n\n\n\n\n\n\n\n\nアトリエクエストボード　すごろくテクニックを覚える！\n\n\n\n\n",
+			"settings":
+			{
+				"buffer_size": 371,
+				"line_ending": "Unix",
+				"name": "アトリエクエストボード攻略　まず覚えるべき3つのポイント"
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/change/mail.html",
+			"settings":
+			{
+				"buffer_size": 9616,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/index.php",
+			"settings":
+			{
+				"buffer_size": 2798,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/EditController.php",
+			"settings":
+			{
+				"buffer_size": 10353,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/facade/TimeFacade.php",
+			"settings":
+			{
+				"buffer_size": 1913,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 370.0,
+		"selected_items":
+		[
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"installpa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packain",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Add Repository"
+			],
+			[
+				"packagecontroll",
+				"Package Control: Install Package"
+			],
+			[
+				"packageinsta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"packainsta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packageins",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 489.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/watanabe/project/001puzzle_kingdom/pk.csv/regular/questionCode/0001.csv",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/facade/InputFacade.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/templates/point_data01.tpl",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/point/history.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/settings/config.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/.htaccess",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/InputBaseController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/settings/database.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/change/index.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/change/password.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/prize/history.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/TopController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/change/mail.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/change/mailSended.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/change/test.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/ChangeController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/EditController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/index.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/login/index.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/top/index.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/dao/csv/DaoCsvBase.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/facade/TimeFacade.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/InputController.php",
+		"/Users/watanabe/Library/Application Support/Sublime Text 2/Packages/CursorRuler/CursorRuler.sublime-settings",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/error/index.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/PrizeController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/PointController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/csv/questionCode/0001.csv",
+		"/Users/watanabe/Documents/SS/php.ini_stg.txt",
+		"/Users/watanabe/Documents/php.ini_pro.txt",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/templates/prize_data01.tpl",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/dao/csv/LotteryInfo.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/csv/apply/lotteryInfo.csv",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/facade/LotFacade.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/facade/UserFacade.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/scripts/jquery.page-scroller-309.js",
+		"/Users/watanabe/.ssh/config",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/csv/apply/lot/prize0001Data.csv",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/dao/csv/PrizeData.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/csv/apply/lot/prize0010Data.csv",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/input/infoEnd.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/dao/csv/PointData.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/csv/apply/pointData.csv",
+		"/Users/watanabe/project/temp/arrow_puzzle/Assets/Scripts/markdown.md",
+		"/Users/watanabe/Library/Application Support/Sublime Text 2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/watanabe/Library/Application Support/Sublime Text 2/Packages/User/MarkdownPreview.sublime-settings",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/LogoutController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/sql/sample.memo",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/ErrorController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/csv_data/regular/spdungeonData.csv",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/templates/point_data01.tpl.tpl",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/logout/done.html",
+		"/Users/watanabe/unitycode.2/New Unity Project 6/Assets/Scripts/MainSystem/Prize/ApplyResultBase.cs",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/csv/apply/lotteryData.csv",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/dao/csv/ApplyData.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/settings/smarty.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/dao/csv/LotteryData.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/csv/apply/lot/prize0006Data.csv",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/Base.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/templates/header.tpl",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/dao/csv/QuestionCodeData.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/input/info.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/settings/enviroment.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/settings/Di.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/scripts/template.js",
+		"/Users/watanabe/Downloads/deploy",
+		"/Users/watanabe/project/001puzzle_kingdom/pk.csv/regular/apply/lotteryData.csv",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/facade/LoginFacade.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/sql/create_user.sql",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/input/infoCheck.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/facade/AcceptFacade.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/css/bootstrap.css",
+		"/Users/watanabe/project/001puzzle_kingdom/pk.csv/.gitignore",
+		"/Users/watanabe/project/001puzzle_kingdom/pk.csv/regular/apply/lotPrizeData.csv",
+		"/Users/watanabe/project/001puzzle_kingdom/csv_data/regular/questionCode/0001.csv",
+		"/Users/watanabe/project/001puzzle_kingdom/csv_data/.gitignore",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/sublime_proj/mypage.sublime-project",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/LoginController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/WithdrawalController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/change/passwordFinished.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/login/remind.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/login/redefine.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/login/finishedRedefine.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/withdrawal/password.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/login/remaind.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/edit_input_password.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/login.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/login_check.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/logout.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/logout_page.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/templates/space_table_input.tpl",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/input/mail.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/MailController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/edit/inputPassword.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/input/password.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp_c/%%0B^0B0^0B064536%%inputPassword.html.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp_c/%%4C^4C8^4C853115%%remaind.html.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp_c/%%DD^DD4^DD43BAB7%%edit_input_password.html.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/input/registUid.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/edit/profile.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/edit/check.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/Vagrantfile",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/input_password.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/pk_home_cookbook/httpd/templates/default/httpd.conf.erb",
+		"/Users/watanabe/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/IndexController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/ProController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/logout/index.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/login/check.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/facade/TestFacade.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/login/header.tpl",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/settings/applyDatabase.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/ApplyController.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/edit/finished.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/withdrawal_finished.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/template/header.tpl",
+		"/Users/watanabe/box/dospara/Vagrantfile",
+		"/Users/watanabe/box/dospara/my_cookbook/Vagrantfile",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp_c/.gitkeep",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/mypage.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/mypage.html",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/pk_home_cookbook/httpd/recipes/default.rb",
+		"/Users/watanabe/Documents/0924作業リスト.txt",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/withdrawal_password.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/withdrawal_check.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/pro_regist_check.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/pro_regist.php",
+		"/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/change_password_finished.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 97.0,
+		"where_history":
+		[
+			"",
+			"/Users/watanabe/unitycode.2/New Unity Project 6",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mail_address",
+			"mail_address_new",
+			"mail_address_",
+			"get",
+			"execute",
+			"updatetime",
+			"time",
+			"password_salt",
+			"update",
+			"uid",
+			"mailChange",
+			"mail",
+			"mail_address_new",
+			"rds.amazonaws",
+			"token_cm",
+			"$mail_address",
+			"mail_address_new",
+			"\n        ",
+			"checkMailFormat",
+			"<<<",
+			"get_csrf_token",
+			"error",
+			"checkMailData",
+			"checkmailda",
+			"checkMailData",
+			"facade",
+			"error_message",
+			"mail_address",
+			"mail",
+			"header",
+			"form",
+			"メール",
+			".tpl",
+			"header.tpl",
+			"head",
+			"/>\n",
+			"auto_login_key",
+			"stop",
+			"test",
+			"teststop",
+			"official_host",
+			"10.0",
+			"session",
+			"33",
+			"ip",
+			"clear",
+			"有効",
+			"contact.php",
+			"library.php",
+			"本番",
+			"( ",
+			"select * from spdungeonPoint where uid = :uid",
+			"spdungeonPoint",
+			" = 6",
+			"echo",
+			"var",
+			"createtime",
+			"active",
+			"date",
+			"createtime",
+			"timefa",
+			"var",
+			"foreach",
+			"$lotteryInfo",
+			"$personalInfo[\"uid\"]",
+			"getLotResult",
+			"lotResultList",
+			"lotteryInfoActive",
+			"mail",
+			"$dao_point_data",
+			"$point_data",
+			"lotteryInfo",
+			"$log",
+			"logUserApply",
+			"tpl_prize",
+			"$lot",
+			"logUserApply",
+			"applyDataList",
+			"infoEnd",
+			"link.mypage_top",
+			"mypage_top",
+			"$link",
+			"finish",
+			"applyDataList",
+			"need",
+			"user",
+			"getLogUserApply",
+			"getSpdungeonPoint",
+			"spdungeonPoint",
+			"form",
+			"logout",
+			"uid",
+			";\n",
+			"getdat",
+			"prizeData",
+			"lotResultData",
+			"foreach",
+			"tpl_prize",
+			"default_modifiers",
+			"infoche",
+			"error_list",
+			"varEnv",
+			"     ",
+			"Definition",
+			"path",
+			"main_image",
+			"main",
+			"uid",
+			"get",
+			"di",
+			"$dao",
+			"lotteryData",
+			"csv",
+			"targetFile",
+			"$this->",
+			"ApplyData",
+			"foreach",
+			"checkAccept",
+			"chk_sum",
+			"checkAccept",
+			"sum",
+			"chk_sum",
+			"checkAccept",
+			"bd3f584788dabaa5ce0d5acd25e9ba4e03bd16d8b1f7074ad8644e704fb83295",
+			"c4c142e8b55e29b07d5efe1dee390a5348c5c35c31955de381b4aef3c163ddb8",
+			"form_2",
+			"form_mailaddress",
+			"iteration"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"remind",
+			"mail_address",
+			"prefecture",
+			"",
+			"魔宝石",
+			"TApplyResultDataSet",
+			"puzzle_color_prob",
+			"aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+			"	",
+			"魔宝石",
+			"Data.PuzzleSeed",
+			"m_eSubStep",
+			"//Debug.Log",
+			"m_eSubStep",
+			"m_csEffDoor",
+			"m_bIsEmpty",
+			"m_intSelectingNum",
+			"//m_csTabManager",
+			"//m_csTabManager.SetNextTab",
+			"m_csCtrlGTM",
+			"m_goTDM",
+			"m_prefTDM",
+			"m_goDialogManager",
+			"m_prefDialogManager",
+			"m_eSubStep",
+			"m_csEnemyManager",
+			"m_goPageArr",
+			"MONSTER_SELECT",
+			"m_csCtrlMonsterTeamIconList",
+			"m_csSkillManager",
+			"SKILL_INFO",
+			"_iDict",
+			"go",
+			"m_csPlayerHp",
+			"m_goAnchorObj",
+			"m_goBattleMenuMain",
+			"m_prefBattleMenuMain",
+			"m_csCtrlBattleMenuMain",
+			"m_intChildNum",
+			"m_intParentNum",
+			"m_eStep",
+			"m_goDamageNum",
+			"STEP",
+			"STEP\nSTEP",
+			"m_fTime",
+			"m_eStepPre",
+			"m_eStep",
+			"m_lbDamageNum.gameObject",
+			"m_intComboCount",
+			"m_intComboEffectCount",
+			"m_LstComboCalc",
+			"m_LstPuzzleCombo",
+			"COMBO_COUNT",
+			"m_intRecoverPoint",
+			"m_intRecoverBase",
+			"CommonNetwork.Instance",
+			"m_csDialogManager",
+			"m_prefBattleDialogManager",
+			"m_eTouchStatus",
+			"m_eTouchStatus;",
+			"m_flBlinkFadeTime",
+			"m_intCallCount",
+			"m_goZombieTile",
+			"m_fWidthMax",
+			"m_intHpMax",
+			"m_intHpNow",
+			"m_LstBattleEnemy",
+			"m_intIndex",
+			"m_intAttack",
+			"m_intSerialKey",
+			"fHosei",
+			"CommonNetwork.Instance",
+			"m_blIsFillEnd",
+			"LstComboCalc",
+			"protected",
+			"intIndex",
+			"ATTACK_END",
+			"LstPuzzleCombo",
+			"CommonNetwork.Instance",
+			"CommonNetwork",
+			"ShopManager",
+			"",
+			"(int)(long)",
+			"DataManager",
+			"DataMonster",
+			"\\\"",
+			"\\\\",
+			"\\\"",
+			"\\\\",
+			"\\\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/sql/create_user.sql",
+					"settings":
+					{
+						"buffer_size": 2449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1803,
+								1803
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"check_times": 1.0,
+							"clone_numbers": 5.0,
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+								18.9,
+								19.2
+							],
+							"syntax": "Packages/SQL/SQL.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/top/index.html",
+					"settings":
+					{
+						"buffer_size": 11075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"clone_numbers": 2.0,
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+								-0.1,
+								0.2
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/ChangeController.php",
+					"settings":
+					{
+						"buffer_size": 17177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10237,
+								10237
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"clone_numbers": 10.0,
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+								12.9,
+								13.2
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5551.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/TopController.php",
+					"settings":
+					{
+						"buffer_size": 1970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								698,
+								698
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"check_times": 0.0,
+							"clone_numbers": 1.0,
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/templates/header.tpl",
+					"settings":
+					{
+						"buffer_size": 3499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 2.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/templates/point_data01.tpl",
+					"settings":
+					{
+						"buffer_size": 368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								363,
+								363
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"check_times": 2.0,
+							"clone_numbers": 5.0,
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/facade/InputFacade.php",
+					"settings":
+					{
+						"buffer_size": 6918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3425,
+								3425
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"check_times": 0.0,
+							"clone_numbers": 5.0,
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 9.0,
+						"translation.y": 1680.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/edit/profile.html",
+					"settings":
+					{
+						"buffer_size": 32620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1696,
+								1696
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"check_times": 0.0,
+							"clone_numbers": 1,
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 517.0,
+						"translation.y": 14.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/settings/database.php",
+					"settings":
+					{
+						"buffer_size": 1325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								804,
+								817
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 645.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"settings":
+					{
+						"buffer_size": 1540,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										292,
+										305
+									],
+									[
+										481,
+										494
+									],
+									[
+										671,
+										684
+									],
+									[
+										1057,
+										1070
+									],
+									[
+										1373,
+										1386
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"rulers":
+							[
+							],
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/settings/applyDatabase.php",
+					"settings":
+					{
+						"buffer_size": 2124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1610,
+								1610
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 11,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/InputController.php",
+					"settings":
+					{
+						"buffer_size": 15891,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8391,
+								8391
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4647.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 0,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/sql/create_user.sql",
+					"settings":
+					{
+						"buffer_size": 2449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2038,
+								2054
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"check_times": 1.0,
+							"clone_numbers": 5.0,
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+								18.9,
+								19.2
+							],
+							"syntax": "Packages/SQL/SQL.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"settings":
+					{
+						"buffer_size": 371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "アトリエクエストボード攻略　まず覚えるべき3つのポイント",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"rulers":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/change/mail.html",
+					"settings":
+					{
+						"buffer_size": 9616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2069,
+								2085
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+								108.9,
+								109.2
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 21.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/index.php",
+					"settings":
+					{
+						"buffer_size": 2798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1099,
+								1099
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+								20.9,
+								21.2
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 491.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/top/index.html",
+					"settings":
+					{
+						"buffer_size": 11075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"clone_numbers": 2.0,
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+								-0.1,
+								0.2
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/TopController.php",
+					"settings":
+					{
+						"buffer_size": 1970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								461,
+								461
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"check_times": 0.0,
+							"clone_numbers": 1.0,
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/facade/InputFacade.php",
+					"settings":
+					{
+						"buffer_size": 6918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1137,
+								1150
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"check_times": 0.0,
+							"clone_numbers": 5.0,
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 552.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/temp/edit/profile.html",
+					"settings":
+					{
+						"buffer_size": 32620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"check_times": 0.0,
+							"clone_numbers": 1,
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/controllers/EditController.php",
+					"settings":
+					{
+						"buffer_size": 10353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6690,
+								6692
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3061.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/Users/watanabe/project/001puzzle_kingdom/mypage/mypage/facade/TimeFacade.php",
+					"settings":
+					{
+						"buffer_size": 1913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								350
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"origin_encoding": "UTF-8",
+							"rulers":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.512936218454,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"chang/mail",
+				"temp/change/mail.html"
+			],
+			[
+				"timefacad",
+				"facade/TimeFacade.php"
+			],
+			[
+				"editcon",
+				"controllers/EditController.php"
+			],
+			[
+				"inputfac",
+				"facade/InputFacade.php"
+			],
+			[
+				"changecont",
+				"controllers/ChangeController.php"
+			],
+			[
+				".sql",
+				"sql/create_user.sql"
+			],
+			[
+				".sq.",
+				"/Users/watanabe/project/001puzzle_kingdom/pk.csv/regular/questionCode/0001.csv"
+			],
+			[
+				"inpucont",
+				"controllers/InputController.php"
+			],
+			[
+				"tocontr",
+				"controllers/TopController.php"
+			],
+			[
+				"inputcontr",
+				"controllers/InputController.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"inputcont",
+				"controllers/InputController.php"
+			],
+			[
+				"inputfa",
+				"facade/InputFacade.php"
+			],
+			[
+				"databa.php",
+				"settings/database.php"
+			],
+			[
+				"edi/pri",
+				"temp/edit/profile.html"
+			],
+			[
+				"inputcontro",
+				"controllers/InputController.php"
+			],
+			[
+				"sended",
+				"temp/change/mailSended.html"
+			],
+			[
+				"chang/mail.h",
+				"temp/change/mail.html"
+			],
+			[
+				"changcon",
+				"controllers/ChangeController.php"
+			],
+			[
+				"chang/in",
+				"temp/change/index.html"
+			],
+			[
+				"chan/pass",
+				"temp/change/password.html"
+			],
+			[
+				"chang/passw",
+				"temp/change/password.html"
+			],
+			[
+				"topcontr",
+				"controllers/TopController.php"
+			],
+			[
+				"prize/hi",
+				"temp/prize/history.html"
+			],
+			[
+				"tpo",
+				"temp/templates/point_data01.tpl"
+			],
+			[
+				"chang/tes",
+				"temp/change/test.html"
+			],
+			[
+				"change/tes",
+				"temp/change/test.html"
+			],
+			[
+				"header.tp",
+				"temp/templates/header.tpl"
+			],
+			[
+				"topcont",
+				"controllers/TopController.php"
+			],
+			[
+				"changcont",
+				"controllers/ChangeController.php"
+			],
+			[
+				"changcontro",
+				"controllers/ChangeController.php"
+			],
+			[
+				"top/in",
+				"temp/top/index.html"
+			],
+			[
+				".csv",
+				"csv/questionCode/0001.csv"
+			],
+			[
+				".sq",
+				"sql/create_user.sql"
+			],
+			[
+				"databa",
+				"settings/database.php"
+			],
+			[
+				"index.php",
+				"index.php"
+			],
+			[
+				"top/ind",
+				"temp/top/index.html"
+			],
+			[
+				"edicont",
+				"controllers/EditController.php"
+			],
+			[
+				"inpbacon",
+				"controllers/InputBaseController.php"
+			],
+			[
+				".ht",
+				".htaccess"
+			],
+			[
+				"index.ph",
+				"index.php"
+			],
+			[
+				"login/inde",
+				"temp/login/index.html"
+			],
+			[
+				"poin/his.",
+				"temp/point/history.html"
+			],
+			[
+				"pont_da01.p",
+				"temp/templates/point_data01.tpl"
+			],
+			[
+				"j",
+				"temp/scripts/jquery.page-scroller-309.js"
+			],
+			[
+				"pointcont",
+				"controllers/PointController.php"
+			],
+			[
+				"userfa",
+				"facade/UserFacade.php"
+			],
+			[
+				"timefa",
+				"facade/TimeFacade.php"
+			],
+			[
+				"daocsvba",
+				"dao/csv/DaoCsvBase.php"
+			],
+			[
+				"time",
+				"facade/TimeFacade.php"
+			],
+			[
+				"lot",
+				"facade/LotFacade.php"
+			],
+			[
+				"prizedata.p",
+				"dao/csv/PrizeData.php"
+			],
+			[
+				"lotteryinfo",
+				"csv/apply/lotteryInfo.csv"
+			],
+			[
+				"lotteryinf",
+				"dao/csv/LotteryInfo.php"
+			],
+			[
+				"prizedata",
+				"dao/csv/PrizeData.php"
+			],
+			[
+				"prize10",
+				"csv/apply/lot/prize0010Data.csv"
+			],
+			[
+				"prizeda",
+				"csv/apply/lot/prize0001Data.csv"
+			],
+			[
+				"prize/his",
+				"temp/prize/history.html"
+			],
+			[
+				"prize.tp",
+				"temp/templates/prize_data01.tpl"
+			],
+			[
+				"prizecon",
+				"controllers/PrizeController.php"
+			],
+			[
+				".hta",
+				".htaccess"
+			],
+			[
+				"lotfa",
+				"facade/LotFacade.php"
+			],
+			[
+				"error/in",
+				"temp/error/index.html"
+			],
+			[
+				"lotteryinf.c",
+				"csv/apply/lotteryInfo.csv"
+			],
+			[
+				"lotfac",
+				"facade/LotFacade.php"
+			],
+			[
+				"poin/his",
+				"temp/point/history.html"
+			],
+			[
+				"prizecontr",
+				"controllers/PrizeController.php"
+			],
+			[
+				"prizecontro",
+				"controllers/PrizeController.php"
+			],
+			[
+				"pointda",
+				"dao/csv/PointData.php"
+			],
+			[
+				"lotte",
+				"csv/apply/lotteryInfo.csv"
+			],
+			[
+				"prizecont",
+				"controllers/PrizeController.php"
+			],
+			[
+				".tpl",
+				"temp/templates/point_data01.tpl"
+			],
+			[
+				"error/ind",
+				"temp/error/index.html"
+			],
+			[
+				"errorcont",
+				"controllers/ErrorController.php"
+			],
+			[
+				"infoend",
+				"temp/input/infoEnd.html"
+			],
+			[
+				"input",
+				"facade/InputFacade.php"
+			],
+			[
+				".memo",
+				"sql/sample.memo"
+			],
+			[
+				"point_",
+				"temp/templates/point_data01.tpl"
+			],
+			[
+				"point.tpl",
+				"temp/templates/point_data01.tpl.tpl"
+			],
+			[
+				"pointcon",
+				"controllers/PointController.php"
+			],
+			[
+				"pri.tpl",
+				"temp/templates/prize_data01.tpl"
+			],
+			[
+				"pri/hi",
+				"temp/prize/history.html"
+			],
+			[
+				"point/his",
+				"temp/point/history.html"
+			],
+			[
+				"poincont",
+				"controllers/PointController.php"
+			],
+			[
+				"point/",
+				"temp/point/history.html"
+			],
+			[
+				"pointda.ph",
+				"dao/csv/PointData.php"
+			],
+			[
+				"usefa",
+				"facade/UserFacade.php"
+			],
+			[
+				"point/hi",
+				"temp/point/history.html"
+			],
+			[
+				"chancont",
+				"controllers/ChangeController.php"
+			],
+			[
+				"chan/pas",
+				"temp/change/password.html"
+			],
+			[
+				"top/inde",
+				"temp/top/index.html"
+			],
+			[
+				"sampl",
+				"sql/sample.memo"
+			],
+			[
+				"point/hist",
+				"temp/point/history.html"
+			],
+			[
+				"logou/don",
+				"temp/logout/done.html"
+			],
+			[
+				"index.p",
+				"index.php"
+			],
+			[
+				"logoucont",
+				"controllers/LogoutController.php"
+			],
+			[
+				"prizcont",
+				"controllers/PrizeController.php"
+			],
+			[
+				"lotteinf",
+				"csv/apply/lotteryInfo.csv"
+			],
+			[
+				"lotteryin",
+				"dao/csv/LotteryInfo.php"
+			],
+			[
+				"lotteryd",
+				"csv/apply/lotteryData.csv"
+			],
+			[
+				"lotterydata.php",
+				"dao/csv/LotteryData.php"
+			],
+			[
+				"lotterydat",
+				"csv/apply/lotteryData.csv"
+			],
+			[
+				"dao",
+				"dao/csv/DaoCsvBase.php"
+			],
+			[
+				"daocs",
+				"dao/csv/DaoCsvBase.php"
+			],
+			[
+				"000",
+				"csv/apply/lot/prize0001Data.csv"
+			],
+			[
+				"smart",
+				"settings/smarty.php"
+			],
+			[
+				"priz/his",
+				"temp/prize/history.html"
+			],
+			[
+				"applydata.",
+				"dao/csv/ApplyData.php"
+			],
+			[
+				"daocsvda",
+				"dao/csv/DaoCsvBase.php"
+			],
+			[
+				"inputcon",
+				"controllers/InputController.php"
+			],
+			[
+				"inputbase",
+				"controllers/InputBaseController.php"
+			],
+			[
+				"inpufac",
+				"facade/InputFacade.php"
+			],
+			[
+				"prize_data01",
+				"temp/templates/prize_data01.tpl"
+			],
+			[
+				"priz/",
+				"temp/prize/history.html"
+			],
+			[
+				"pointdata",
+				"csv/apply/pointData.csv"
+			],
+			[
+				"smarty",
+				"settings/smarty.php"
+			],
+			[
+				"template.",
+				"temp/scripts/template.js"
+			],
+			[
+				"log/inde",
+				"temp/login/index.html"
+			],
+			[
+				"header",
+				"temp/templates/header.tpl"
+			],
+			[
+				"env",
+				"settings/enviroment.php"
+			],
+			[
+				"inpu/info",
+				"temp/input/info.html"
+			],
+			[
+				"inpucontro",
+				"controllers/InputController.php"
+			],
+			[
+				"prizdat",
+				"csv/apply/lot/prize0006Data.csv"
+			],
+			[
+				"di.",
+				"settings/Di.php"
+			],
+			[
+				"basephp",
+				"controllers/Base.php"
+			],
+			[
+				"daocsba",
+				"dao/csv/DaoCsvBase.php"
+			],
+			[
+				"dao/cs",
+				"dao/csv/QuestionCodeData.php"
+			],
+			[
+				"prize",
+				"temp/templates/prize_data01.tpl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"arrow",
+				"/Users/watanabe/project/temp/arrow_puzzle/temporary/arrow_puzzle_t.sublime-project"
+			],
+			[
+				"arrrowpuzzl",
+				"/Users/watanabe/project/temp/arrow_puzzle/temporary/arrow_puzzle_t.sublime-project"
+			],
+			[
+				"server",
+				"/Users/watanabe/sublime_proj/puzzle_game_server.sublime-project"
+			],
+			[
+				"mer",
+				"/Users/watanabe/sublime_proj/unity_proj_merge.sublime-project"
+			],
+			[
+				"ser",
+				"/Users/watanabe/sublime_proj/puzzle_game_server.sublime-project"
+			],
+			[
+				"merg",
+				"/Users/watanabe/sublime_proj/unity_proj_merge.sublime-project"
+			],
+			[
+				"",
+				"/Users/watanabe/sublime_proj/kikaku.sublime-project"
+			],
+			[
+				"2",
+				"/Users/watanabe/sublime_proj/taison_game2_front.sublime-project"
+			],
+			[
+				"serve",
+				"/Users/watanabe/sublime_proj/puzzle_game_server.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true
+}

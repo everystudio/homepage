@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns": ["sublime_proj"],
+			"path": "${project_path:${folder}}/../../"
+		}
+	]
+}
