@@ -17,12 +17,14 @@
 </ul>
 
 {if 0 < $use_opening }
+{/if}
+<!--
 <div class="opening">
 
 <h2><img src="{$img}/top_title.png" alt="毎日工房" width="880" height="260"></h2>
 
 </div>
-{/if}
+-->
 <center>
 <ul class="nl clearFix">
 <li class="first"><a href="{$link.top}">ホーム</a></li>
