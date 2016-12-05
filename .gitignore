@@ -13,3 +13,4 @@ temp/*
 # とにかく無視したい
 /*.~lock*
 
+sftp-config.json
