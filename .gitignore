@@ -6,6 +6,7 @@
 # .vagrant フォルダまるごと無視したい
 .vagrant/
 temp/*
+sublime_proj/*
 
 #sublimeのワークスペースはあげなくてよい
 *.sublime-workspace
