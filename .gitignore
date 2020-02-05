@@ -1,4 +1,21 @@
 
 temp_c/*
 
+<<<<<<< HEAD
+=======
+# 下階層全てのフォルダ内で ".DS_Store" ファイルを無視したい
+*/.DS_Store
 
+# .vagrant フォルダまるごと無視したい
+.vagrant/
+temp/*
+sublime_proj/*
+
+#sublimeのワークスペースはあげなくてよい
+*.sublime-workspace
+
+# とにかく無視したい
+/*.~lock*
+>>>>>>> 78e47f999596a8356a26a16698419ae728e82112
+
+sftp-config.json
