@@ -1,15 +1,4 @@
 
+temp_c/*
 
-# 下階層全てのフォルダ内で ".DS_Store" ファイルを無視したい
-*/.DS_Store
-
-# .vagrant フォルダまるごと無視したい
-.vagrant/
-temp/*
-
-#sublimeのワークスペースはあげなくてよい
-*.sublime-workspace
-
-# とにかく無視したい
-/*.~lock*
 
